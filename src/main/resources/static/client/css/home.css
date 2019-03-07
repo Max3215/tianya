@@ -1,0 +1,444 @@
+/*01*/
+.reco_box{
+	width: 1200px;
+	overflow: hidden;
+	margin-top: 80px;
+}
+.reco_linetitle{
+	width: 100%;
+	height: 50px;
+}
+.reco_linetitle *{float: left;}
+.reco_linetitle span{
+	display: block;
+	width: 493px;
+	border-top: #274b99 1px solid;
+	margin-top: 20px;
+}
+.reco_linetitle a{
+	display: block;
+	width: 130px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	text-decoration: none;
+	color: #274b99;
+}
+.bote_nav{
+	width: 1200px;
+}
+.bote_nav ul{
+	overflow: hidden;
+	margin: auto;
+}
+.bote_nav ul li{
+	float: left;
+
+}
+.bote_nav ul li a{
+		width: 100px;
+		display: block;
+		text-align: center;
+		border-right: #dddddd 1px solid;
+}
+
+.bote_box{
+	width: 1200px;
+	margin-top: 64px;
+}
+.bote_box ul{
+	width: 100%;
+	overflow: hidden;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+.bote_box ul li{
+	float: left;
+	width: 220px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.bote_box ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+.bote_box ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.bote_box ul li a span{
+	width: 160px;
+	height: 60px;
+	font-size: 24px;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 60px;
+	background: url(../images/bote_bd.png);
+	color: black;
+}
+
+
+
+/*02*/
+
+.aim_box{
+	width: 1200px;
+	margin-top: 64px;
+}
+.aim_box ul{
+	width: 100%;
+	overflow: hidden;
+}
+.aim_box ul li{
+	float: left;
+	height: 320px;
+}
+.aim_box ul .li01{
+	width: 740px;
+}
+.aim_box ul .li02{
+	width: 440px;
+	margin-left: 20px;
+}
+.aim_box ul .li03{
+	width: 360px;
+	margin-top: 20px;
+}
+.aim_box ul .li04{
+	width: 360px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.aim_box ul .li05{
+	width: 440px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.aim_box ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+.aim_box ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.aim_box ul li a span{
+	width: 160px;
+	height: 60px;
+	font-size: 24px;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+}
+
+
+
+/*03*/
+.boat_list{
+	width: 1200px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.boat_right{
+	width: 890px;
+	float: right;
+}
+.boat_right dl{
+	overflow: hidden;
+	margin-top: 20px;
+	padding:20px;
+	background-color:#fff;
+}
+.boat_right dl dt{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+.boat_right dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.boat_right dl dd{
+	width: 540px;
+	margin-left: 10px;
+	float: left;
+}
+.boat_right dl dd h3{
+	font-size: 16px;
+	margin-bottom: 20px;
+	height:18px;
+	line-height:18px;
+	overflow:hidden;
+}
+.boat_right dl dd p{
+	height:72px;
+	line-height:18px;
+	overflow:hidden;
+	color: #999999;
+}
+.boat_right dl dd span{
+	display: block;
+	width:100%;
+	height:44px;
+	overflow:hidden;
+	line-height: 44px;
+	border-bottom: #DDDDDD 1PX solid;
+}
+.boat_right dl dd .div1{
+	overflow: hidden;
+	margin-top: 14px;
+}
+.boat_right dl dd .div1 .left{
+	float: left;
+}
+.boat_right dl dd .div1 a{
+	float: right;
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: #1f3c80;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 30px;
+	border-radius: 4px;
+	color: white;
+	text-decoration:none;
+}
+
+.boat_left{
+	width: 280px;
+	float: left;
+}
+.boat_left01{
+	width: 100%;
+	background: white;
+}
+.boat_left01 .title{
+	width: 260px;
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	background: #1e3c7f;
+	color: white;
+	font-size: 16px;
+}	
+.boat_left01 ul{
+	width: 100%;
+	padding-bottom: 20px;
+	overflow:hidden;
+}	
+.boat_left01 ul li{
+	width: 240px;
+	padding-left: 20px;
+	margin-top: 20px;
+	overflow:hidden;
+}	
+.boat_left01 ul li span{
+	width: 50px;
+	height: 30px;
+	line-height:30px;
+	display:block;
+	float:left;
+	overflow:hidden;
+
+}
+.boat_left01 ul li select{
+	width: 180px;
+	height: 30px;
+	border-radius:4px ;
+}
+.boat_left02{
+	width: 100%;
+	background: white;
+}
+.boat_left02 .pri{
+	width: 260;
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	background: #dddddd;
+	font-size: 16px;
+}	
+.boat_left02 ul{
+	width: 100%;
+	padding-bottom: 20px;
+
+}	
+.boat_left02 ul li{
+	width: 240px;
+	padding:0 20px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom:#DDDDDD 1px dashed ;
+}	
+.boat_left02 ul .li01{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	overflow: hidden;
+	border: none;
+}
+.boat_left02 ul .li01 p{
+	float: left;
+	line-height: 26px;
+	padding: 0 10px;
+}
+.boat_left02 ul .li01 input{
+	float: left;
+	width: 44px;
+	height: 26px;
+	line-height: 26px;
+	text-align: left;
+	padding-left:16px;
+	border: #999999 1px solid;
+	background:url(../images/cmoney.png) no-repeat 2px 6px;
+}
+.boat_left02 ul .li01 a{
+	width: 40px;
+	line-height: 26px;
+	margin-left: 30px;
+	background: #dddddd;
+	display: block;
+	float: left;
+	text-decoration:none;
+}	
+.boat_left02 ul .li02{
+	width: 200px;
+	margin-left: 20px;
+	height: 30px;
+	border-radius: 4px;
+	line-height: 30px;
+	border: #999999 1px solid;
+	padding: 0;
+}	
+.boat_left02 ul .li02 a{
+
+	float: right;
+	display:block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/f_searchicon.png) no-repeat right;
+}	
+.boat_left02 ul .li02 input{
+	border: none;
+	height: 30px;
+	border-radius: 4px;
+	line-height: 30px;
+	width: 160px;
+	float: left;
+	padding-left: 10px;
+	outline: none;
+}
+.boatright_title{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #1e3c7f;
+
+}
+.boatright_title ul{
+	width: 100%;
+	overflow: hidden;
+}	
+.boatright_title ul .li01{
+	float:left ;
+	width: 300px;
+	color: white;
+}	
+.boatright_title ul .li01 a{
+	margin-left:20px;
+	color:#fff;
+}	
+.boatright_title ul .li02{
+	padding-right:10px;
+	float:right;
+	color:#fff;
+}		
+.boatright_title ul .li02 a{
+	color: white;
+	margin:0px 4px;
+	text-decoration: none;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

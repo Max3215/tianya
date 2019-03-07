@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title><#if setting??>${setting.seoTitle!''}-</#if>游轮</title>
+	<meta name="keywords" content="<#if setting??>${setting.seoKeywords!''}</#if>">
+	<meta name="description" content="<#if setting??>${setting.seoDescription!''}</#if>">
+	<meta name="copyright" content="<#if setting??>${setting.copyright!''}</#if>">
+</head>
+<link rel="shortcut icon" href="/client/images/tianya.ico">
+<link rel="stylesheet" type="text/css" href="/client/css/base.css">
+<link rel="stylesheet" type="text/css" href="/client/css/common.css">
+<link rel="stylesheet" type="text/css" href="/client/css/index.css">
+<link rel="stylesheet" type="text/css" href="/client/css/rich_css.css">
+<link rel="stylesheet" type="text/css" href="/client/css/home.css">
+<script src="/client/js/jquery-1.11.0.js" type="text/javascript"></script>	
+<script src="/client/js/rich_lee.js" type="text/javascript"></script>	
+
+<script type="text/javascript">
+	window.onload = function(){
+		banner_go('my');//焦点图
+		
+	};
+</script>
+
+<body>
+<#include "/client/common_header.ftl" />
+
+<div class="index_banner">
+		<div class="banner_scrool">
+			<#if big_scroll_ad_list??>
+				<#list big_scroll_ad_list as item>
+					<a href="${item.linkUri!''}"><img src="${item.fileUri!''}" /> </a>
+				</#list>
+			</#if>
+		</div>
+		<div class="move_btn">
+			<ul>
+				<#if big_scroll_ad_list??>
+					<#list big_scroll_ad_list as item>
+						<li><a></a></li>
+					</#list>
+				</#if>
+			</ul>
+		</div>
+	</div>
+
+<!-- ********************中间内容******************** -->
+<div class="content">
+	<div class="boat_list">
+		<div class="boat_left">
+			<div class="boat_left01">
+				<div class="title">按条件筛选</div>
+				<ul>
+					<#if param_list??>
+						<#list param_list as param>
+							<li>
+								<span>${param.title!""}：</span>
+								<select>
+									<option>全部</option>
+									<#if param.valueList??>
+			                            <#list param.valueList?split(",") as value>
+			                                <#if value!="">
+												<option>${value?trim!""}</option>
+											</#if>
+										</#list>
+									</#if>
+								</select>
+							</li>
+						</#list>
+					</#if>
+				</ul>	
+			</div>
+			<div class="boat_left02">
+				<div class="pri">按条件筛选</div>
+				<ul>
+					<li>
+						<span>1-1000</span>
+					</li>
+					<li>
+						<span>1001-10000</span>
+					</li>
+					<li>
+						<span>10001-30000</span>
+					</li>
+					<li>
+						<span>30001-50000</span>
+					</li>
+					<li>
+						<span>50001-100000</span>
+					</li>
+					<li>
+						<span>100000以上</span>
+					</li>
+					<li class="li01">
+						<div>￥</div>
+						<p>~</p>
+						<div>￥</div>
+						<a>确定</a>
+					</li>
+					<li class="li02">
+						<input type="text" name="" id="" value="" />
+						<span></span>
+					</li>
+				</ul>	
+			</div>
+		</div>
+			<div class="boat_right">
+				<div class="boatright_title">
+					<ul>
+						<li class="li01">
+							<span class="span01">综合排序</span>
+							<span>按价格</span>
+							<span>按销量</span>
+						</li>
+						<li class="li02">
+							<a href="/">网站首页 </a>
+							<#if category_tree_list??>
+								<#list category_tree_list as item>
+									<a href="/list/${item.id?c}">> ${item.title}</a>
+								</#list>
+							</#if>
+						</li>
+					</ul>
+				</div>
+				<dl>
+					<dt>
+						<img src="images/f_img04.jpg" />
+					</dt>
+					<dd>
+						<h3>而非哈圣诞节划分空间啊等会沙发上地方</h3>
+						<p>对方的身份是对方的身份第三方的</p>
+						<p>对方的身份第三方的身份是的</p>
+						<span>时代发生大幅度沙发上地方</span>
+						<div class="div1">
+							<div class="left">￥321321起/人</div>
+							<a>立即预定</a>
+						</div>
+						
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="images/f_img04.jpg" />
+					</dt>
+					<dd>
+						<h3>而非哈圣诞节划分空间啊等会沙发上地方</h3>
+						<p>对方的身份是对方的身份第三方的</p>
+						<p>对方的身份第三方的身份是的</p>
+						<span>时代发生大幅度沙发上地方</span>
+						<div class="div1">
+							<div class="left">￥321321起/人</div>
+							<a>立即预定</a>
+						</div>
+						
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="images/f_img04.jpg" />
+					</dt>
+					<dd>
+						<h3>而非哈圣诞节划分空间啊等会沙发上地方</h3>
+						<p>对方的身份是对方的身份第三方的</p>
+						<p>对方的身份第三方的身份是的</p>
+						<span>时代发生大幅度沙发上地方</span>
+						<div class="div1">
+							<div class="left">￥321321起/人</div>
+							<a>立即预定</a>
+						</div>
+						
+					</dd>
+				</dl>
+			</div>
+		</div>
+	<div style="width: 100%;height: 130px;float: left;"></div>
+</div>
+
+<!-- ********************中间内容-结束******************** -->
+
+<#include "/client/common_footer.ftl" />
+</body>
+</html>

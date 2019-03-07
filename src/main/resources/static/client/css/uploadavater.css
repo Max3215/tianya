@@ -1,0 +1,128 @@
+@charset "utf-8";
+.div_avatar {
+	margin: 10px auto 0 auto;
+	position: relative;
+	font-family: 微软雅黑;
+	font-size: 12px;
+}
+.div_avatar p {
+	line-height: 12px;
+	line-height: 0px;
+	height: 0px;
+	margin: 15px;
+	color: #bbb
+}
+.action {
+	width: 400px;
+	height: 30px;
+	margin: 10px 0;
+}
+.cropped {
+	position: absolute;
+	right: 20px;
+	top: 200px;
+	/*width: 500px;*/
+	height: 200px;
+	padding: 4px;
+	text-align: center;
+}
+.cropped > div { display: inline-block; margin-right: 210px;}
+.cropped > .div1 { width: 180px; height: 180px; }
+.cropped > .div2 { width: 120px; height: 120px; }
+.cropped > .div3 { width: 70px; height: 70px; }
+.imageBox {
+	float: left;
+	position: relative;
+	height: 400px;
+	width: 400px;
+	border: 1px solid #aaa;
+	background: #fff;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	cursor: move;
+	margin-bottom: 10px;
+}
+.imageBox .thumbBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+	box-sizing: border-box;
+	border: 1px solid rgb(102, 102, 102);
+	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+	background: none repeat scroll 0% 0% transparent;
+}
+.imageBox .spinner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	line-height: 400px;
+	background: rgba(0,0,0,0.7);
+}
+.Btnsty_peyton {
+	float: right;
+	width: 50px;
+	display: inline-block;
+	margin-bottom: 10px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin: 0px 2px;
+	background-color: #009ce7;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+/*选择文件上传*/
+.new-contentarea {
+	width: 120px;
+	overflow:hidden;
+	margin: 0 auto;
+	position:relative;float:left;
+}
+.new-contentarea label {
+	width:100%;
+	height:100%;
+	display:block;
+}
+.new-contentarea input[type=file] {
+	width:120px;
+	height:45px;
+	background:#333;
+	margin: 0 auto;
+	position:absolute;
+	left:0px;
+	margin-right:-94px;
+	top:0;
+	right/*\**/:0px\9;
+	margin-right/*\**/:0px\9;
+	width/*\**/:10px\9;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:2;
+	cursor:pointer;
+}
+a.upload-img{
+	width:120px;
+	display: inline-block;
+	margin-bottom: 10px;
+	height:45px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #009ce7;
+	text-decoration:none;
+	cursor:pointer;
+}
+a.upload-img:hover{
+	background-color: #049ce4;
+}
+
+.tc{text-align:center;}

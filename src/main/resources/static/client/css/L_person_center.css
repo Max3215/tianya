@@ -1,0 +1,84 @@
+/* ********************我的游记******************** */
+/* **********中间内容********** */
+.content{
+	width:1200px;
+	overflow:hidden;
+}
+
+/* *****中间-左边***** */
+.content .body_left {
+	width:190px;
+	float:left;
+	overflow:hidden;
+}
+/* 手风琴效果 */
+.content .body_left .menu_list{
+	margin:10px auto;
+	width:185px;
+}
+.content .body_left .menu_head{
+	width:150px;
+	height:47px;
+	line-height:47px;
+	padding-left:38px;
+	font-size:14px;
+	color:#525252;
+	cursor:pointer;
+	border:1px solid #e1e1e1;
+	position:relative;
+	font-weight:bold;
+	background:#f1f1f1 url(../images/pro_left.png) center right no-repeat;
+	margin:0;
+}
+.content .body_left .menu_list .current{
+	background:#f1f1f1 url(../images/pro_down.png) center right no-repeat;
+}
+.content .body_left .menu_body{
+	width:189px;
+	height:auto;
+	overflow:hidden;
+	line-height:38px;
+	border-left:1px solid #e1e1e1;
+	background-color:#fff;
+	border-right:1px solid #e1e1e1;
+}
+.content .body_left .menu_body a{
+	display:block;
+	width:150px;
+	height:38px;
+	line-height:38px;
+	padding-left:38px;
+	color:#777777;
+	background:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #e1e1e1;
+}
+.content .body_left .menu_body a:hover{
+	text-decoration:none;
+}
+/* 手风琴效果-结束 */
+/* *****中间-左边-结束***** */
+
+
+/* *****中间-右边***** */
+.content .body_right {
+	width:600px;
+	background-color:pink;
+	float:right;
+	overflow:hidden;
+}
+.content .body_right img{
+	display:block;
+	float:left;
+	margin-top:20px;
+}
+.content .body_right .b{
+	float:right;
+	margin-top:40px;
+	background-color:green;
+}
+/* *****中间-右边-结束***** */
+
+
+/* **********中间内容********** */
+/* ********************我的游记-结束******************** */

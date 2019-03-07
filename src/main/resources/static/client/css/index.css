@@ -1,0 +1,4432 @@
+/*隐藏日历价格*/
+.calendar .calendar_right .on .calendar_price01{ }
+
+/* ********************攻略游记******************** */
+/* **********中间内容********** */
+.strategy{
+	width:1200px;
+	min-height:680px;
+	overflow:hidden;
+}
+/* *****中间-游记***** */
+.strategy .travels{
+	overflow:hidden;
+}
+.strategy .travels dt{
+	height:120px;
+	line-height:120px;
+}
+.strategy .travels dt span{
+	width:506px;
+	height:1px;
+	display:inline-block;
+	overflow:hidden;
+	margin-top:60px;
+	background-color:#274b99;
+}
+.strategy .travels dt .sp1{
+	float:left;
+}
+.strategy .travels dt .sp2{
+	float:right;
+}
+.strategy .travels dt a{
+	float:left;
+	margin:0px 70px;
+	font-size:24px;
+	color:#274b99;
+}
+.strategy .travels .dd1{
+	overflow:hidden;
+}
+.strategy .travels .dd1 .div1{
+	position:relative;
+	width:794px;
+	height:304px;
+	float:left;
+	overflow:hidden;
+}
+.strategy .travels .dd1 .div1 img{
+	width:794px;
+	height:304px;
+}
+.strategy .travels .dd1 .div1 p{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	padding:0 10px;
+	width:774px;
+	height:46px;
+	line-height:46px;
+	background:url(../images/bgpic.png) repeat center;
+}
+.strategy .travels .dd1 .div2{
+	position:relative;
+	width:386px;
+	height:304px;
+	float:left;
+	overflow:hidden;
+	margin-left:20px;
+}
+.strategy .travels .dd1 .div2 img{
+	width:386px;
+	height:304px;
+}
+.strategy .travels .dd1 .div2 p{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:366px;
+	height:46px;
+	line-height:46px;
+	padding:0px 10px;
+	background:url(../images/bgpic.png) repeat center;
+}
+.strategy .travels .dd2{
+	margin-top:20px;
+}
+.strategy .travels .dd2 .div1{
+	position:relative;
+	width:387px;
+	height:304px;
+	float:left;
+	overflow:hidden;
+}
+.strategy .travels .dd2 .div1 img{
+	width:387px;
+	height:304px;
+}
+.strategy .travels .dd2 .div1 p{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:367px;
+	height:46px;
+	line-height:46px;
+	padding: 0px 10px;
+	background:url(../images/bgpic.png) repeat center;
+}
+.strategy .travels .dd2 .div2{
+	position:relative;
+	width:387px;
+	height:304px;
+	float:left;
+	overflow:hidden;
+	margin-left:20px;
+}
+.strategy .travels .dd2 .div2 img{
+	width:387px;
+	height:304px;
+}
+.strategy .travels .dd2 .div2 p{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:380px;
+	height:46px;
+	line-height:46px;
+	padding-left:10px;
+	background:url(../images/bgpic.png) repeat center;
+}
+.strategy .travels .dd2 .div3{
+	position:relative;
+	width:386px;
+	height:304px;
+	float:left;
+	overflow:hidden;
+	margin-left:20px;
+}
+.strategy .travels .dd2 .div3 img{
+	width:386px;
+	height:304px;
+}
+.strategy .travels .dd2 .div3 p{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:380px;
+	height:46px;
+	line-height:46px;
+	padding-left:10px;
+	background:url(../images/bgpic.png) repeat center;
+}
+/* *****中间-游记-结束***** */
+/* *****中间-攻略***** */
+.strategy .trate{
+	overflow:hidden;
+}
+.strategy .trate .trate_title{
+	height:36px;
+	line-height:36px;
+	font-size:24px;
+}
+.strategy .trate .trate_title span{
+	width:506px;
+	height:1px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	margin-top:20px;
+	background-color:#274b99;
+}
+.strategy .trate .trate_title a{
+	float:left;
+	margin:0px 70px;
+	color:#274b99;
+}
+.strategy .trate  .trate_search{
+	position:relative;
+	width:100%;
+	padding-top:20px;
+	overflow:hidden;
+	text-align:right;
+}
+.strategy .trate  .trate_search input{
+	width:150px;
+	height:26px;
+	line-height:26px\9;
+	padding-right:14px;
+	padding-left:6px;
+	border:1px solid #dddddd;
+	background:none;
+	outline:none;
+}
+.strategy .trate  .trate_search a{
+	position:absolute;
+	bottom:6px;
+	right:10px;
+	z-index:10;
+	width:15px;
+	height:15px;
+	display:block;
+}
+.strategy .trate  .trate_search a img{
+	width:15px;
+	height:15px;
+}
+.strategy .trate ul{
+	overflow:hidden;
+	margin-top:30px;
+}
+.strategy .trate ul li{
+	width:100%;
+	height:430px;
+	overflow:hidden;
+	margin-bottom:20px;
+	background-color:#ffffff;
+}
+.strategy .trate ul li .trate_left{
+	width:600px;
+	height:430px;
+	float:left;
+}
+.strategy .trate ul li .trate_left img{
+	width:600px;
+	height:430px;
+}
+.strategy .trate ul li .trate_right{
+	width:500px;
+	height:430px;
+	padding:0px 50px;
+	float:left;
+	overflow:hidden;
+}
+.strategy .trate ul li .trate_right p{
+	width:inherit;
+}
+.strategy .trate ul li .trate_right .p1{
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	font-size:24px;
+}
+.strategy .trate ul li .trate_right .p1 a{
+	color:#9e764e;
+}
+.strategy .trate ul li .trate_right .p2{
+	height:40px;
+	line-height:40px;
+	padding-left:30px;
+	overflow:hidden;
+	color:#999999;
+	background:url(../images/ticon1.png) no-repeat 0px center;
+}
+.strategy .trate ul li .trate_right .p3{
+	width:100%;
+	height:200px;
+	line-height:30px;
+	overflow:hidden;
+	margin:10px 0px 10px;
+}
+.strategy .trate ul li .trate_right .tpic{
+	width:100%;
+	height:90px;
+	overflow:hidden;
+	margin:20px 0px;
+}
+.strategy .trate ul li .trate_right .tpic img{
+	width:136px;
+	height:90px;
+	float:left;
+	margin-left:46px;
+}
+.strategy .trate ul li .trate_right .tpic .img1{
+	margin-left:0px;
+}
+.strategy .trate ul li .trate_right .see{
+	width:100%;
+	height:40px;
+	overflow:hidden;
+}
+.strategy .trate ul li .trate_right .see .la1{
+	width:100px;
+	height:40px;
+	line-height:40px;
+	display:block;
+	float:left;
+}
+.strategy .trate ul li .trate_right .see .la1 img{
+	display:inline-block;
+	float:left;
+	margin-top:12px;
+	margin-right:6px;
+}
+.strategy .trate ul li .trate_right .see .a1,
+.strategy .trate ul li .trate_right .see .a2{
+	float:right;
+}
+.strategy .trate ul li .trate_right .see .a1{
+	margin-left:20px;
+}
+.strategy .trate ul li .trate_right .see .a1 img{
+	width:32px;
+	height:32px;
+}
+.strategy .trate ul li .trate_right .see .a2 img{
+	width:32px;
+	height:32px;
+}
+/* *****中间-攻略-结束***** */
+/* *****中间-页码***** */
+.strategy .page{
+	height:24px;
+	line-height:24px;
+	padding:20px 0px;
+	float:right;
+	overflow:hidden;
+}
+.strategy .page a{
+	float:left;
+	margin:0px 8px;
+	color:#1e3c7f;
+}
+.strategy .page .now_page{
+	width:24px;
+	height:24px;
+	line-height:24px;
+	background-color:#1e3c7f;
+	text-align:center;
+	color:#ffffff;
+}
+.strategy .page .ne_page{
+	margin-right:0px;
+}
+
+/* *****中间-页码-结束***** */
+/* **********中间内容********** */
+/* ********************攻略游记-结束******************** */
+
+
+
+
+
+/* ********************攻略游记文章页******************** */
+/* **********中间内容********** */
+.strategy_article{
+	width:1200px;
+	min-height:680px;
+	overflow:hidden;
+}
+/* *****中间-大标题***** */
+.strategy_article .big_title{
+	position:relative;
+	width:1200px;
+	height:430px;
+}
+.strategy_article .big_title img{
+	width:1200px;
+	height:430px;
+}
+.strategy_article .big_title p{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:1180px;
+	height:64px;
+	line-height:64px;
+	padding:0px 10px;
+	overflow:hidden;
+	background:url(../images/bgpic.png) repeat;
+	font-size:18px;
+	color:#333333;
+}
+.strategy_article .big_title p label{
+	float:left;
+	margin-right:30px;
+}
+.strategy_article .big_title p .la2{
+	padding-left:28px;
+	background:url(../images/las0.png) no-repeat 0px center;
+}
+/* *****中间-大标题-结束***** */
+
+
+/* *****中间-文字左***** */
+.strategy_article .art_left{
+	width:840px;
+	float:left;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+.strategy_article .art_left .art_word{
+	padding:40px 50px;
+}
+.strategy_article .art_left .art_word p{
+	width:740px;
+	line-height:36px;
+	overflow:hidden;
+}
+.strategy_article .art_left .art_word img{
+	width:740px;
+	margin:20px 0px;
+}
+.strategy_article .art_left .nice{
+	text-align:center;
+}
+.strategy_article .art_left .nice img{
+	width:50px;
+	height:50px;
+	margin:0px;
+}
+.strategy_article .art_left .commont{
+	width:100%;
+	overflow:hidden;
+}
+.strategy_article .art_left .commont dt{
+	height:50px;
+	line-height:50px;
+	padding-left:24px;
+	border-bottom:1px solid #dddddd;
+	font-size:18px;
+}
+.strategy_article .art_left .commont textarea{
+	width:770px;
+	height:72px;
+	line-height:20px;
+	overflow:hidden;
+	padding:10px;
+	margin:20px 24px;
+	border:1px solid #dddddd;
+	background-color:#f4f1f1;
+	resize:none;
+	outline:none;
+}
+.strategy_article .art_left .dd2 input{
+	width:120px;
+	height:40px;
+	line-height:40px;
+	float:right;
+	padding:1px;
+	margin-right:24px;
+	border:none;
+	background-color:#0288df;
+	text-align:center;
+	font-size:16px;
+	color:#ffffff;
+}
+.strategy_article .art_left .pcom{
+	overflow:hidden;
+	padding:20px 24px 20px;
+}
+.strategy_article .art_left .pcom li{
+	_height:110px;
+	overflow:hidden;
+	padding:20px 0px;
+	border-bottom:1px solid #dddddd;
+}
+.strategy_article .art_left .pcom li dl{
+	overflow:hidden;
+}
+.strategy_article .art_left .pcom li dl:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display:block;
+	overflow:hidden;
+}
+.strategy_article .art_left .pcom .li1{
+	border-top:1px solid #dddddd;
+}
+.strategy_article .art_left .pcom li dl dt{
+	width:52px;
+	float:left;
+}
+.strategy_article .art_left .pcom li dl dt img{
+	width:52px;
+	height:52px;
+}
+.strategy_article .art_left .pcom li dl dd{
+	width:720px;
+	padding-left:20px;
+	float:left;
+}
+.strategy_article .art_left .pcom li dl dd p{
+	width:720px;
+	line-height:20px;
+	overflow:hidden;
+}
+.strategy_article .art_left .pcom li dl dd .p1{
+	height:30px;
+	line-height:30px;
+}
+.strategy_article .art_left .pcom li dl dd .p1 a{
+	color:#0288df;
+}
+.strategy_article .art_left .pcom li dl dd .p1 label{
+	margin-left:10px;
+	color:#999999;
+}
+/* *****中间-文字左-结束***** */
+/* *****中间-文字右***** */
+.strategy_article .art_right{
+	width:336px;
+	margin-left:24px;
+	float:left;
+	overflow:hidden;
+}
+.strategy_article .art_right .right_title{
+	height:48px;
+	line-height:48px;
+	font-size:18px;
+	border-bottom:2px solid #999999;
+}
+.strategy_article .art_right ul{
+	overflow:hidden;
+}
+.strategy_article .art_right ul li:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display:block;
+	overflow:hidden;
+}
+.strategy_article .art_right ul li{
+	padding:16px 0px 0px;
+}
+.strategy_article .art_right ul li img{
+	width:138px;
+	height:92px;
+	float:left;
+}
+.strategy_article .art_right ul li div{
+	width:188px;
+	height:92px;
+	padding-left:10px;
+	float:left;
+	overflow:hidden;
+}
+.strategy_article .art_right ul li div .p1{
+	height:60px;
+	line-height:20px;
+	font-size:16px;
+	color:#333333;
+	overflow:hidden;
+}
+.strategy_article .art_right ul li div .p2{
+	height:32px;
+	line-height:32px;
+	font-size:18px;
+	color:#666666;
+	overflow:hidden;
+}
+/* *****中间-文字右-结束***** */
+/* **********中间内容********** */
+/* ********************攻略游记文章页-结束******************** */
+
+
+
+
+/* ********************班次信息******************** */
+/* **********中间内容********** */
+.classes_infor{
+	margin-top:50px;
+	width:1200px;
+	overflow:hidden;
+}
+.classes_infor .dl1{
+	width:100%;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+.classes_infor .dl1 dt{
+	height:56px;
+	line-height:56px;
+	padding:0px 20px;
+	border-bottom:1px solid #dddddd;
+}
+.classes_infor .dl1 .dd1{
+	width:614px;
+	height:240px;
+	float:left;
+	overflow:hidden;
+}
+.classes_infor .dl1 .dd1 img{
+	width:165px;
+	height:144px;
+	display:block;
+	float:left;
+	margin:20px;
+	_margin:20px 20px 20px 12px;
+}
+.classes_infor .dl1 .dd1 div{
+	width:350px;
+	_width:346px;
+	float:left;
+	overflow:hidden;
+}
+.classes_infor .dl1 .dd1 div p{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#999999;
+}
+.classes_infor .dl1 .dd1 div .p1{
+	height:30px;
+	line-height:30px;
+	margin-top:20px;
+	font-size:16px;
+	color:#1d2f4f;
+}
+.classes_infor .dl1 .dd2{
+	width:566px;
+	height:184px;
+	float:left;
+}
+.classes_infor .dl1 .dd2 form{
+	width:566px;
+	height:217px;
+	margin:20px 0;
+	background-color:#eeeeee;
+}
+.classes_infor .dl1 .dd2 form .bdiv_left{
+	width:366px;
+	float:left;
+}
+.classes_infor .dl1 .dd2 form .bdiv_left p{
+	width:366px;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+	margin-left:20px;
+}
+.classes_infor .dl1 .dd2 form .bdiv_left .p1{
+	margin-top:0px;
+}
+.classes_infor .dl1 .dd2 form .bdiv_left p input{
+	width:24px;
+	height:24px;
+	line-height:24px\9;
+	margin:0px 6px;
+	border:1px solid #dddddd;
+	text-align:center;
+	vertical-align:middle;
+}
+.classes_infor .dl1 .dd2 form .bdiv_right{
+	width:200px;
+	_width:180px;
+	float:left;
+}
+.classes_infor .dl1 .dd2 form .bdiv_right a{
+	width:50px;
+	height:50px;
+	line-height:30px;
+	display:block;
+	overflow:hidden;
+	padding:26px;
+	margin-top:20px;
+	border-radius:4px;
+	background-color:#1e3c7f;
+	text-align:center;
+	text-decoration:none;
+	font-size:18px;
+	color:#ffffff;
+}
+.classes_infor .dl2{
+	width:100%;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+.classes_infor .dl2 dt{
+	height:50px;
+	line-height:56px;
+	padding:0px 20px;
+	border-bottom:1px solid #dddddd;
+}
+.classes_infor .dl2 dd {
+	width:1160px;
+	height:144px;
+	padding:20px;
+}
+.classes_infor .dl2 dd img{
+	width:165px;
+	height:144px;
+	float:left;
+	margin:0px 30px;
+}
+.classes_infor .dl2 dd div{
+	width:566px;
+	float:right;
+}
+.classes_infor .dl2 dd div p{
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+/* **********中间内容********** */
+/* ********************班次信息-结束******************** */
+
+
+
+/* ********************直通车******************** */
+/* **********中间内容********** */
+.direct_train{
+	position:relative;
+	top:-56px;
+	_top:-76px;
+	width:1200px;
+	overflow:hidden;
+}
+/*直通车*/
+.direct_train .dl1 dt{
+	height:56px;
+	background:url(../images/bgpic.png) repeat;
+}
+.direct_train .dl1 dt a{
+	width:136px;
+	height:56px;
+	line-height:56px;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+.direct_train .dl1 dt .a1{
+	background-color:#ffffff;
+}
+.direct_train .dl1 dd{
+	width:1180px;
+	height:166px;
+	padding:10px;
+	background-color:#1f3c80;
+}
+.direct_train .dl1 form:after{
+	content:"clear";
+	clear:both;
+	height: 0px;
+	display:block;
+	overflow: hidden;
+}
+.direct_train .dl1 .dd1_left{
+	width:599px;
+	height:166px;
+	float:left;
+	border-right:1px dashed #ffffff;
+}
+.direct_train .dl1 .dd1_left p{
+	width:406px;
+	height:72px;
+	line-height:36px;
+	overflow:hidden;
+	margin:20px auto 0px;
+	font-size:14px;
+	color:#ffffff;
+}
+.direct_train .dl1 .dd1_left .left_time{
+	width:600px;
+	height:42px;
+	margin-top:10px;
+}
+.direct_train .dl1 .dd1_left .left_time .in1{
+    width: 154px;
+    height: 40px;
+    line-height: 40px\9;
+    padding-left: 96px;
+    margin-left: 88px;
+    border: 1px solid #dddddd;
+    background: #ffffff url(../images/bcc1.png) no-repeat 6px 8px;
+    background-size: 84px 24px;
+    font-size: 14px;
+}
+.direct_train .dl1 .dd1_left .left_time .in2{
+    width: 122px;
+    height: 40px;
+    line-height: 40px\9;
+    padding-left: 36px;
+    margin-left: 8px;
+    border: 1px solid #dddddd;
+    background: #ffffff url(../images/cc2.png) no-repeat 6px 8px;
+    background-size: 24px 24px;
+    font-size: 14px;
+}
+.direct_train .dl1 .dd1_right{
+	width:580px;
+	height:166px;
+	float:left;
+}
+.direct_train .dl1 .dd1_right input{
+	width:300px;
+	height:40px;
+	line-height:40px\9;
+	display:block;
+	float:left;
+	overflow:hidden;
+	padding-left:36px;
+	margin:10px 0px 0px 98px;
+	border:1px solid #dddddd;
+	font-size:14px;
+	color:#666666;
+	background:#ffffff url(../images/cc3.png) no-repeat 6px 8px;
+}
+.direct_train .dl1 .dd1_right div {
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+.direct_train .dl1 .dd1_right div input{
+	display:inline-block;
+}
+.direct_train .dl1 .dd1_right div .search{
+	width:338px;
+	height:42px;
+	float:left;
+	display: block;
+	padding:1px;
+	margin-left:98px;
+	border:0px;
+	background:#00ccff;
+	color:#ffffff;
+	cursor:pointer;
+}
+/* 直通车-结束 */
+/*最新班次*/
+.direct_train .dl2{
+	overflow:hidden;
+}
+.direct_train .dl2 dt{
+	width:1200px;
+	height:136px;
+	line-height:136px;
+	text-align:center;
+	font-size:24px;
+	color:#274b99;
+}
+.direct_train .dl2 dt span{
+	width:500px;
+	height:1px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-top:68px;
+	background-color:#274b99;
+}
+.direct_train .dl2 dt .span2{
+	float:right;
+}
+.direct_train .dl2 dt label{
+	width:200px;
+	float:left;
+	text-align:center;
+}
+
+.direct_train .dl2 ul{
+	width:1224px;
+	overflow:hidden;
+}
+.direct_train .dl2 ul li{
+	width:588px;
+	height:140px;
+	float:left;
+	overflow:hidden;
+	margin-right:24px;
+	margin-bottom:44px;
+}
+.direct_train .dl2 ul li a{
+	float:left;
+}
+.direct_train .dl2 ul li img{
+	width:230px;
+	height:140px;
+	display:block;
+	float:left;
+}
+.direct_train .dl2 ul li .car_infor{
+	position:relative;
+	width:346px;
+	height:140px;
+	float:left;
+	margin-left:12px;
+}
+.direct_train .dl2 ul li .car_infor p{
+	width:208px;
+	height:24px;
+	line-height:28px;
+	overflow:hidden;
+	font-size:14px;
+	color:#666666;
+}
+.direct_train .dl2 ul li .car_infor .p1{
+	width:322px;
+	font-size:18px;
+}
+.direct_train .dl2 ul li .car_infor .p1 a{
+	color:#1f3c80;
+}
+.direct_train .dl2 ul li .car_infor .rob_bill{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:114px;
+	height:62px;
+	overflow:hidden;
+}
+.direct_train .dl2 ul li .car_infor .rob_bill p{
+	width:114px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.direct_train .dl2 ul li .car_infor .rob_bill a{
+	width:114px;
+	height:32px;
+	line-height:32px;
+	display:block;
+	border-radius:4px;
+	background-color:#1f3c80;
+	text-align:center;
+	color:#ffffff;
+}
+/* 最新班次-结束 */
+/* **********中间内容********** */
+/* ********************直通车-结束******************** */
+
+
+/* ********************提交订单（直通车）******************** */
+/* **********中间内容********** */
+/*订单信息*/
+.train_order{
+	position:relative;
+	width:1200px;
+	overflow:hidden;
+	margin:0px auto;
+}
+.train_order .dl1{
+	width:1198px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.train_order .dl1 dt{
+	height:60px;
+	line-height:90px;
+	padding:0px 20px;
+	border-bottom:1px solid #dddddd;
+	font-size:18px;
+	color:#1d2f4f;
+}
+.train_order .dl1 .dd1{
+	width:600px;
+	height:198px;
+	padding:36px 0px 36px 80px;
+	float:left;
+	overflow:hidden;
+}
+.train_order .dl1 .dd1 ul{
+	width:438px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	border-bottom:none;
+}
+.train_order .dl1 .dd1 ul li{
+	height:48px;
+	line-height:48px;
+	overflow:hidden;
+	border-bottom:1px solid #dddddd;
+	background-color:#fff;
+}
+.train_order .dl1 .dd1 ul li p{
+	height:48px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+.train_order .dl1 .dd1 ul .li1{
+	padding:0px 10px;
+	background-color:#f6f6f6;
+}
+.train_order .dl1 .dd1 ul .li3{
+	background-color:#f6f6f6;
+}
+.train_order .dl1 .dd1 ul .li2 .p1,
+.train_order .dl1 .dd1 ul .li2 .p3{
+	width:85px;
+	border-right:1px solid #dddddd;
+}
+.train_order .dl1 .dd1 ul .li2 .p2{
+	width:182px;
+	border-right:1px solid #dddddd;
+}
+.train_order .dl1 .dd1 ul .li2 .p4{
+	width:80px;
+}
+.train_order .dl1 .dd1 ul .li3 .p1,
+.train_order .dl1 .dd1 ul .li3 .p3{
+	width:85px;
+	border-right:1px solid #dddddd;
+}
+.train_order .dl1 .dd1 ul .li3 .p2{
+	width:182px;
+	border-right:1px solid #dddddd;
+}
+.train_order .dl1 .dd1 ul .li3 .p4{
+	width:80px;
+}
+.train_order .dl1 .dd1 ul .li4 .p1{
+	width:85px;
+	border-right:1px solid #ddd;
+}
+.train_order .dl1 .dd1 ul .li4 .p2{
+	padding:0px 10px;
+}
+.train_order .dl1 .dd1 ul .li4 .p2 label{
+	margin-right:10px;
+}
+.train_order .dl1 .dd2{
+	width:358px;
+	height:198px;
+	padding:36px 80px;
+	float:left;
+}
+.train_order .dl1 .dd2 p{
+	height:40px;
+	line-height:40px;
+}
+.train_order .dl1 .dd2 p label{
+	float:left;
+}
+.train_order .dl1 .dd2 p i{
+	width:110px;
+	height:1px;
+	border-top:1px dashed #999;
+	display:block;
+	float:right;
+	overflow:hidden;
+	margin:20px 10px 0px;
+}
+.train_order .dl1 .dd2 .p4 label{
+	text-align:right;
+	font-size:18px;
+}
+.train_order .dl1 .dd2 .p4 span{
+	color:#ff9813;
+} 
+/*订单信息-结束*/
+
+
+/*旅客信息*/
+.train_order .traveler_infor{
+	padding-bottom:20px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color: #fff;
+}
+.train_order .traveler_infor .tra_title{
+	height:60px;
+	line-height:60px;
+	padding:0px 20px;
+	font-size:18px;
+}
+.train_order .traveler_infor dl{
+	padding:0px 20px;
+	overflow:hidden;
+}
+.train_order .traveler_infor dl dt{
+	height:32px;
+	line-height:32px;
+	background-color:#1e3c7f;
+}
+.train_order .traveler_infor dl dt div{
+	height:32px;
+	float:left;
+	color:#fff;
+}
+.train_order .traveler_infor dl dt .div1{
+	width:96px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dt .div2{
+	width:120px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dt .div3{
+	width:138px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dt .div4{
+	width:190px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dt .div5{
+	width:220px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dt .div6{
+	width:186px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dt .div7{
+	width:208px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dd{
+	overflow:hidden;
+}
+.train_order .traveler_infor dl dd ul{
+	padding:10px 0px;
+	overflow:hidden;
+}
+.train_order .traveler_infor dl dd ul li{
+	height:74px;
+	overflow:hidden;
+	margin-bottom:10px;
+	border:1px solid #dddddd;
+}
+.train_order .traveler_infor dl dd ul li div{
+	height:74px;
+	line-height:74px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+.train_order .traveler_infor dl dd ul li .div1{
+	width:95px;
+}
+.train_order .traveler_infor dl dd ul li .div2{
+	width:120px;
+}
+.train_order .traveler_infor dl dd ul li .div3{
+	width:138px;
+}
+.train_order .traveler_infor dl dd ul li .div4{
+	width:190px;
+}
+.train_order .traveler_infor dl dd ul li .div5{
+	width:220px;
+}
+.train_order .traveler_infor dl dd ul li .div6{
+	width:186px;
+}
+.train_order .traveler_infor dl dd ul li .div7{
+	width:207px;
+}
+.train_order .traveler_infor dl dd ul li .div1 input{
+	width:16px;
+	height:16px;
+	float:left;
+	margin:28px 39px;
+}
+.train_order .traveler_infor dl dd ul li .div2 input{
+	width:56px;
+	height:24px;
+	line-height:24px\9;
+	float:left;
+	margin:23px 30px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dd ul li .div3 input{
+	width:16px;
+	height:16px;
+	float:left;
+	margin:29px 6px 29px 22px;
+}
+.train_order .traveler_infor dl dd ul li .div3 label{
+	float:left;
+}
+.train_order .traveler_infor dl dd ul li .div4 span{
+	width:118px;
+	height:26px;
+	line-height:26px;
+	display:block;
+	border:1px solid #dddddd;
+	text-align:center;
+}
+.train_order .traveler_infor dl dd ul li .div4 span select{
+	width:118px;
+	opacity:.0;
+}
+.train_order .traveler_infor dl dd ul li .div4 span select option{
+	width:118px;
+}
+.train_order .traveler_infor dl dd ul li .div5 input{
+	width:160px;
+	height:24px;
+	line-height:24px\9;
+	float:left;
+	margin:23px 28px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dd ul li .div6 input{
+	width:140px;
+	height:24px;
+	line-height:24px\9;
+	float:left;
+	margin:23px 21px;
+	_margin:23px 21px;
+	text-align:center;
+}
+.train_order .traveler_infor dl dd ul li .div7 input{
+	width:58px;
+	height:28px;
+	line-height:28px;
+	padding:1px;
+	display:block;
+	float:left;
+	margin:23px 6px 10px 32px;
+	_margin:23px 6px 10px 12px;
+	border:none;
+	border-radius:4px;
+	background-color:#ff9813;
+	color:#ffffff;
+	cursor:pointer;
+}
+.train_order .traveler_infor dl dd ul li .div7 a{
+	color:#008bce;
+}
+.train_order .traveler_infor .ad_trav{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	color:#999999;
+	background:#f6f6f6;
+}
+/*旅客信息-结束*/
+/*联系信息*/
+.train_order .contact_infor{
+	width:100%;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.train_order .contact_infor dt{
+	height:60px;
+	line-height:60px;
+	padding:0px 20px;
+	border-bottom:1px solid #dddddd;
+	background-color:#f6f6f6;
+	font-size:18px;
+	color:#1e3c7f;
+}
+.train_order .contact_infor dd{
+	overflow:hidden;
+	padding:14px 0px 30px;
+	_padding-top:30px;
+}
+.train_order .contact_infor dd div{
+	width:100%;
+	height:30px;
+	overflow:hidden;
+	margin-top:16px;
+}
+.train_order .contact_infor dd div label{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	display:block;
+	float:left;
+	margin-left:410px;
+	_margin-left:200px;
+	text-align:right;
+	font-size:16px;
+}
+.train_order .contact_infor dd div .la2{
+	width:120px;
+	margin-left:10px;
+	font-size:14px;
+	text-align:left;
+	color:#e30606;
+}
+.train_order .contact_infor dd div input{
+	width:210px;
+	height:26px;
+	line-height:26px;
+	float:left;
+	padding-left:10px;
+	margin-left:10px;
+	border:1px solid #dddddd;
+}
+.train_order .submits{
+	width:100%;
+	height:50px;
+	text-align:center;
+}
+.train_order .submits input{
+	width:142px;
+	height:42px;
+	line-height:42px;
+	border:0px;
+	border-radius:6px;
+	background-color:#ff9813;
+	text-align:center;
+	font-size:16px;
+	color:#ffffff;
+}
+/*联系信息-结束*/
+/* **********中间内容********** */
+/* ********************提交订单（直通车）-结束******************** */
+
+
+
+
+
+/* ********************接送******************** */
+/* **********中间内容********** */
+.pick_send{
+	position:relative;
+	top:-56px;
+	_top:-76px;
+	width:1200px;
+	overflow:hidden;
+}
+/*接送*/
+.pick_send .dl1 dt{
+	height:56px;
+	background:url(../images/bgpic.png) repeat;
+}
+.pick_send .dl1 dt a{
+	width:136px;
+	height:56px;
+	line-height:56px;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+.pick_send .dl1 dt .a1{
+	background-color:#ffffff;
+}
+.pick_send .dl1 dd{
+	width:1180px;
+	height:166px;
+	padding:10px;
+	background-color:#1f3c80;
+}
+.pick_send .dl1 form:after{
+	content:"clear";
+	clear:both;
+	height: 0px;
+	display:block;
+	overflow: hidden;
+}
+.pick_send .dl1 .dd1_left{
+	width:599px;
+	height:166px;
+	float:left;
+	border-right:1px dashed #ffffff;
+}
+.pick_send .dl1 .dd1_left p{
+	width:406px;
+	height:72px;
+	line-height:36px;
+	overflow:hidden;
+	margin:20px auto 0px;
+	font-size:14px;
+	color:#ffffff;
+}
+.pick_send .dl1 .dd1_left .left_time{
+	width:600px;
+	height:42px;
+	margin-top:10px;
+}
+.pick_send .dl1 .dd1_left .left_time .in1{
+    width: 214px;
+    height: 40px;
+    line-height: 40px\9;
+    padding-left: 36px;
+    margin-left: 88px;
+    border: 1px solid #dddddd;
+    background: #ffffff url(../images/cc1.png) no-repeat 6px 8px;
+    background-size: 24px 24px;
+    font-size: 14px;
+}
+.pick_send .dl1 .dd1_left .left_time .in2{
+    width: 122px;
+    height: 40px;
+    line-height: 40px\9;
+    padding-left: 36px;
+    margin-left: 8px;
+    border: 1px solid #dddddd;
+    background: #ffffff url(../images/cc2.png) no-repeat 6px 8px;
+    background-size: 24px 24px;
+    font-size: 14px;
+}
+.pick_send .dl1 .dd1_right{
+	width:580px;
+	height:166px;
+	float:left;
+}
+.pick_send .dl1 .dd1_right input{
+	width:300px;
+	height:40px;
+	line-height:40px\9;
+	display:block;
+	float:left;
+	overflow:hidden;
+	padding-left:36px;
+	margin:10px 0px 0px 48px;
+	border:1px solid #dddddd;
+	font-size:14px;
+	color:#666666;
+	background:#ffffff url(../images/cc3.png) no-repeat 6px 8px;
+}
+.pick_send .dl1 .dd1_right div{
+	float:left;
+	overflow:hidden;
+}
+.pick_send .dl1 .dd1_right div input{
+	display:inline-block;
+}
+.pick_send .dl1 .dd1_right div .search{
+	width:130px;
+	height:42px;
+	float:left;
+	padding:1px;
+	margin-left:40px;
+	border:0px;
+	background:#00ccff;
+	color:#ffffff;
+	cursor:pointer;
+}
+/* 接送-结束 */
+/*最新班次*/
+.pick_send .dl2{
+	overflow:hidden;
+}
+.pick_send .dl2 dt{
+	width:1200px;
+	height:136px;
+	line-height:136px;
+	text-align:center;
+	font-size:24px;
+	color:#274b99;
+}
+.pick_send .dl2 dt span{
+	width:500px;
+	height:1px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-top:68px;
+	background-color:#274b99;
+}
+.pick_send .dl2 dt .span2{
+	float:right;
+}
+.pick_send .dl2 dt label{
+	width:200px;
+	float:left;
+	text-align:center;
+}
+.pick_send .dl2 ul{
+	width:1224px;
+	overflow:hidden;
+}
+.pick_send .dl2 ul li{
+	width:588px;
+	height:140px;
+	float:left;
+	overflow:hidden;
+	margin-right:24px;
+	margin-bottom:44px;
+}
+.pick_send .dl2 ul li a{
+	float:left;
+}
+.pick_send .dl2 ul li img{
+	width:230px;
+	height:140px;
+	display:block;
+	float:left;
+}
+.pick_send .dl2 ul li .car_infor{
+	position:relative;
+	width:346px;
+	height:140px;
+	float:left;
+	margin-left:12px;
+}
+.pick_send .dl2 ul li .car_infor p{
+	width:208px;
+	height:28px;
+	line-height:28px;
+	overflow:hidden;
+	font-size:14px;
+	color:#666666;
+}
+.pick_send .dl2 ul li .car_infor .p1{
+	width:322px;
+	height:42px;
+	line-height:42px;
+	font-size:18px;
+}
+.pick_send .dl2 ul li .car_infor .p1 a{
+	color:#1f3c80;
+}
+.pick_send .dl2 ul li .car_infor .rob_bill{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:114px;
+	height:32px;
+	overflow:hidden;
+}
+.pick_send .dl2 ul li .car_infor .rob_bill p{
+	width:114px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.pick_send .dl2 ul li .car_infor .rob_bill a{
+	width:114px;
+	height:32px;
+	line-height:32px;
+	display:block;
+	border-radius:4px;
+	background-color:#1f3c80;
+	text-align:center;
+	color:#ffffff;
+}
+/* 最新班次-结束 */
+/* **********中间内容********** */
+/* ********************接送-结束******************** */
+
+
+
+
+/* ********************租车******************** */
+/* **********中间内容********** */
+.rent_car{
+	position:relative;
+	top:-56px;
+	_top:-76px;
+	width:1200px;
+	overflow:hidden;
+}
+/*租车*/
+.rent_car .dl1{
+	/*overflow:hidden;*/
+}
+.rent_car .dl1 dt{
+	height:56px;
+	background:url(../images/bgpic.png) repeat;
+}
+.rent_car .dl1 dt a{
+	width:136px;
+	height:56px;
+	line-height:56px;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+.rent_car .dl1 dt .a1{
+	background-color:#ffffff;
+}
+.rent_car .dl1 dd{
+	width:1180px;
+	height:166px;
+	padding:10px;
+	background-color:#1f3c80;
+}
+.rent_car .dl1 form:after{
+	content:"clear";
+	clear:both;
+	height: 0px;
+	display:block;
+	overflow: hidden;
+}
+.rent_car .dl1 .dd1_left{
+	width:599px;
+	height:166px;
+	float:left;
+	border-right:1px dashed #ffffff;
+}
+
+.rent_car .dl1 .dd1_left input{
+	width:376px;
+	height:40px;
+	background: #fff url("../images/f_txtbgicon.png") no-repeat;
+	line-height:40px\9;
+	display:block;
+	overflow:hidden;
+	padding-left:75px;
+	margin:10px auto 0px;
+	border:1px solid #dddddd;
+	font-size:14px;
+	color:#666666;
+}
+.rent_car .dl1 .dd1_left .inp1{
+	background-position:0px 0px;
+}
+.rent_car .dl1 .dd1_left .inp2{
+	background-position:0px -39px;
+}
+.rent_car .dl1 .dd1_left .inp3{
+	background-position:0px -78px;
+	padding-left: 40px;
+	width: 410px;
+}
+.rent_car .dl1 .dd1_left .inp4{
+	width:315px;
+	padding-left:110px;
+	background-position:0px -428px;
+}
+
+.rent_car .dl1 .dd1_left .inp5{
+	width:315px;
+	padding-left:110px;
+	background-position:0px -467px;
+}
+.rent_car .dl1 .dd1_right{
+	width:580px;
+	height:166px;
+	float:left;
+}
+.rent_car .dl1 .dd1_right > div{
+	height:42px;
+	/*overflow:hidden;*/
+	margin-top:10px;
+}
+.rent_car .dl1 .dd1_right > div input[type='text']{
+	line-height:40px\9;
+	border:1px solid #dddddd;
+	background:#fff url(../images/f_txtbgicon.png) no-repeat;
+	font-size:14px;
+}
+.rent_car .dl1 .dd1_right > div input.inp1{
+	width: 347px;
+	height:40px;
+	padding-left:75px;
+	margin-left:98px;
+	background-position: 0px -310px;
+}
+
+
+.rent_car .dl1 .dd1_right > div input.inp6{
+	background-position:0px -386px;
+}
+
+.rent_car .dl1 .dd1_right > div input.inp3{
+	width: 347px;
+	height:40px;
+	padding-left:75px;
+	margin-left:98px;
+	background-position: 0px -349px;
+}
+.rent_car .dl1 .dd1_right > div input.inp2{
+	width: 122px;
+	height:40px;
+	padding-left:36px;
+	margin-left:8px;
+	background-position: 0px -156px;
+}
+
+
+.rent_car .dl1 .dd1_right .searc{
+	width: 424px;
+	height:40px;
+	line-height:40px\9;
+	margin-left:98px;
+	display:block;
+	float:left;
+	margin-top:10px;
+	border:1px solid #00ccff;
+	background:#00ccff;
+	font-size:14px;
+	color:#ffffff;
+}
+/* 租车-结束 */
+/*热门车型*/
+.rent_car .dl2{
+	overflow:hidden;
+}
+.rent_car .dl2 dt{
+	width:1200px;
+	height:136px;
+	line-height:136px;
+	text-align:center;
+	font-size:24px;
+	color:#274b99;
+}
+.rent_car .dl2 dt span{
+	width:500px;
+	height:1px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-top:68px;
+	background-color:#274b99;
+}
+.rent_car .dl2 dt .span2{
+	float:right;
+}
+.rent_car .dl2 dt label{
+	width:200px;
+	float:left;
+	text-align:center;
+}
+.rent_car .dl2 dd:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display:block;
+	overflow:hidden;
+}
+.rent_car .dl2 dd a{
+	position:relative;
+	width:285px;
+	height:285px;
+	display:block;
+	overflow: hidden;
+	float:left;
+	margin-left:20px;
+}
+.rent_car .dl2 dd .a1{
+	margin-top: 15px;
+    margin-left: 15px;
+}
+.rent_car .dl2 dd a img{
+	width:285px;
+	height:285px;
+}
+.rent_car .dl2 dd a div{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:2;
+	width:100%;
+	background:url(../images/bgpic.png) repeat;
+}
+.rent_car .dl2 dd a div p{
+	height:30px;
+	line-height:30px;.
+	padding:0px 10px;
+	color:#999999;
+}
+.rent_car .dl2 dd a div p .label1{
+	float:left;
+	color:#1f3c80;
+}
+.rent_car .dl2 dd a div p .label2{
+	float:right;
+}
+.rent_car .dl2 dd a div p .label2 span{
+	color:#f30935;
+}
+/* 热门车型-结束 */
+/* **********中间内容********** */
+/* ********************租车-结束******************** */
+
+
+
+
+
+
+/* ********************服务点列表******************** */
+/* **********中间内容********** */
+.serve_list{
+	position:relative;
+	top:-56px;
+	_top:-76px;
+	width:1200px;
+	overflow:hidden;
+}
+/*服务点列表*/
+.serve_list .dl1{
+	/*overflow:hidden;*/
+}
+.serve_list .dl1 dt{
+	height:56px;
+	background:url(../images/bgpic.png) repeat;
+}
+.serve_list .dl1 dt a{
+	width:136px;
+	height:56px;
+	line-height:56px;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+.serve_list .dl1 dt .a1{
+	background-color:#ffffff;
+}
+.serve_list .dl1 dd{
+	width:1180px;
+	height:166px;
+	padding:10px;
+	background-color:#1f3c80;
+}
+.serve_list .dl1 form:after{
+	content:"clear";
+	clear:both;
+	height: 0px;
+	display:block;
+	overflow: hidden;
+}
+.serve_list .dl1 .dd1_left{
+	width:599px;
+	height:166px;
+	float:left;
+	border-right:1px dashed #ffffff;
+}
+
+.serve_list .dl1 .dd1_left input{
+	width:376px;
+	height:40px;
+	background: #fff url("../images/f_txtbgicon.png") no-repeat;
+	line-height:40px\9;
+	display:block;
+	overflow:hidden;
+	padding-left:75px;
+	margin:10px auto 0px;
+	border:1px solid #dddddd;
+	font-size:14px;
+	color:#666666;
+}
+.serve_list .dl1 .dd1_left .inp1{
+	background-position:0px 0px;
+}
+.serve_list .dl1 .dd1_left .inp2{
+	background-position:0px -39px;
+}
+.serve_list .dl1 .dd1_left .inp3{
+	background-position:0px -78px;
+	padding-left: 40px;
+	width: 410px;
+}
+
+
+.serve_list .dl1 .dd1_right{
+	width:580px;
+	height:166px;
+	float:left;
+}
+.serve_list .dl1 .dd1_right > div{
+	height:42px;
+	/*overflow:hidden;*/
+	margin-top:10px;
+}
+.serve_list .dl1 .dd1_right > div input[type='text']{
+	line-height:40px\9;
+	border:1px solid #dddddd;
+	background:#fff url(../images/f_txtbgicon.png) no-repeat;
+	font-size:14px;
+}
+.serve_list .dl1 .dd1_right > div input.inp1{
+	width: 175px;
+	height:40px;
+	padding-left:75px;
+	margin-left:98px;
+	background-position: 0px -310px;
+}
+.serve_list .dl1 .dd1_right > div input.inp3{
+	width: 175px;
+	height:40px;
+	padding-left:75px;
+	margin-left:98px;
+	background-position: 0px -349px;
+}
+.serve_list .dl1 .dd1_right > div input.inp2{
+	width: 122px;
+	height:40px;
+	padding-left:36px;
+	margin-left:8px;
+	background-position: 0px -156px;
+}
+
+.serve_list .dl1 .dd1_right .searc{
+	width: 424px;
+	height:40px;
+	line-height:40px\9;
+	margin-left:98px;
+	display:block;
+	float:left;
+	margin-top:10px;
+	border:1px solid #00ccff;
+	background:#00ccff;
+	font-size:14px;
+	color:#ffffff;
+}
+
+/* 服务点列表-结束 */
+/*较近的服务点*/
+.serve_list .dl2{
+	overflow:hidden;
+}
+.serve_list .dl2 dt{
+	height:80px;
+	line-height:80px;
+	font-size:16px;
+}
+.serve_list .dl2 dt .la1{
+	float:left;
+	color:#274384;
+}
+.serve_list .dl2 dd{
+	overflow:hidden;
+}
+.serve_list .dl2 dd ul{
+	overflow:hidden;
+}
+.serve_list .dl2 dd ul li{
+	height:80px;
+	overflow:hidden;
+	padding:20px;
+	margin-bottom:16px;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.serve_list .dl2 dd ul li:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display:block;
+	overflow:hidden;
+}
+.serve_list .dl2 dd ul li div{
+	height:80px;
+	float:left;
+	overflow:hidden;
+}
+.serve_list .dl2 dd ul li .li_left{
+	width:779px;
+	float:left;
+}
+.serve_list .dl2 dd ul li .li_right{
+	width:379px;
+	float:left;
+	font-size:18px;
+}
+.serve_list .dl2 dd ul li .li_left .p1{
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	font-size:24px;
+	color:#284485;
+}
+.serve_list .dl2 dd ul li .li_left .p2{
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+}
+.serve_list .dl2 dd ul li .li_left .p2 label{
+	float:left;
+	margin-right:20px;
+}
+.serve_list .dl2 dd ul li .li_right label{
+	float:left;
+	margin-top:32px;
+	margin-left:120px;
+	color:#f30000;
+}
+.serve_list .dl2 dd ul li .li_right a{
+	width:114px;
+	height:34px;
+	line-height: 34px;
+	display:block;
+	float:left;
+	margin-top:24px;
+	margin-left:20px;
+	background-color:#ff9813;
+	text-align:center;
+	font-size:16px;
+	color:#ffffff;
+}
+
+.div_order { float: right; margin-top:32px; }
+.div_order .label_order { float: left; font:14px/22px "Microsoft YaHei"; background-color: #1e3c7f; color: #fff; padding: 0px 13px;}
+/*排序下拉菜单样式*/
+.styled_select { float:left;width: 131px;height: 22px;}
+.f_div_select{width:131px; position:relative; z-index:10000;}
+.f_div_select > span{width:131px; height:22px;line-height:22px; display:block; color:#807a62; cursor:pointer;font-style:normal ; padding-left:4px;background: url("../images/f_selectdown.png") no-repeat 115px #ddd;}
+.f_div_select ul{width:131px; background-color:#ffffff; position:absolute; z-index:20000; margin-top:-1px; display:none;}
+.f_div_select ul li{height:24px; line-height:24px; background-color: #ddd; text-align: center;}
+.f_div_select ul li a{display:block; height:24px; color:#666; text-decoration:none; }
+.f_div_select ul li a:hover{background-color:#1e3c7f; color: #fff;}
+
+
+/* 较近的服务点-结束 */
+/* **********中间内容********** */
+/* ********************服务点列表-结束******************** */
+
+
+
+
+/* ********************服务点******************** */
+/* **********中间内容********** */
+.serve_dot{
+	position:relative;
+	top:-56px;
+	_top:-76px;
+	width:1200px;
+	overflow:hidden;
+}
+/*服务点*/
+.serve_dot .dl1{
+	/*overflow:hidden;*/
+}
+.serve_dot .dl1 dt{
+	height:56px;
+	background:url(../images/bgpic.png) repeat;
+}
+.serve_dot .dl1 dt a{
+	width:136px;
+	height:56px;
+	line-height:56px;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+.serve_dot .dl1 dt .a1{
+	background-color:#ffffff;
+}
+
+.serve_dot .dl1 dd{
+	width:1180px;
+	height:166px;
+	padding:10px;
+	background-color:#1f3c80;
+}
+.serve_dot .dl1 form:after{
+	content:"clear";
+	clear:both;
+	height: 0px;
+	display:block;
+	overflow: hidden;
+}
+.serve_dot .dl1 .dd1_left{
+	width:599px;
+	height:166px;
+	float:left;
+	border-right:1px dashed #ffffff;
+}
+
+.serve_dot .dl1 .dd1_left input{
+	width:376px;
+	height:40px;
+	background: #fff url("../images/f_txtbgicon.png") no-repeat;
+	line-height:40px\9;
+	display:block;
+	overflow:hidden;
+	padding-left:75px;
+	margin:10px auto 0px;
+	border:1px solid #dddddd;
+	font-size:14px;
+	color:#666666;
+}
+.serve_dot .dl1 .dd1_left .inp1{
+	background-position:0px 0px;
+}
+.serve_dot .dl1 .dd1_left .inp2{
+	background-position:0px -39px;
+}
+.serve_dot .dl1 .dd1_left .inp3{
+	background-position:0px -78px;
+	padding-left: 40px;
+	width: 410px;
+}
+.serve_dot .dl1 .dd1_right{
+	width:580px;
+	height:166px;
+	float:left;
+}
+
+.date_div {display: inline-block;}
+.serve_dot .dl1 .dd1_right > div{
+	height:42px;
+	/*overflow:hidden;*/
+	margin-top:10px;
+}
+.serve_dot .dl1 .dd1_right > div input[type='text']{
+	line-height:40px\9;
+	border:1px solid #dddddd;
+	background:#fff url(../images/f_txtbgicon.png) no-repeat;
+	font-size:14px;
+}
+.serve_dot .dl1 .dd1_right > div input.inp1{
+	width: 175px;
+	height:40px;
+	padding-left:75px;
+	margin-left:98px;
+	background-position: 0px -310px;
+}
+.serve_dot .dl1 .dd1_right > div input.inp3{
+	width: 175px;
+	height:40px;
+	padding-left:75px;
+	margin-left:98px;
+	background-position: 0px -349px;
+}
+.serve_dot .dl1 .dd1_right > div input.inp2{
+	width: 122px;
+	height:40px;
+	padding-left:36px;
+	margin-left:8px;
+	background-position: 0px -156px;
+}
+
+
+.serve_dot .dl1 .dd1_right .searc{
+	width: 424px;
+	height:40px;
+	line-height:40px\9;
+	margin-left:98px;
+	display:block;
+	float:left;
+	margin-top:10px;
+	border:1px solid #00ccff;
+	background:#00ccff;
+	font-size:14px;
+	color:#ffffff;
+}
+/* 服务点-结束 */
+
+/*选择时间点通用样式Start*/
+.ti_tx, .mi_tx, .mer_tx{width: 100%;text-align: center;margin: 5px 0;}
+.time, .mins, .meridian{width: 40px;float: left;margin: 0px 3px;font-size: 20px;color: #2d2e2e;font-family: 'arial';font-weight: 700;}
+.prev, .next{cursor: pointer;padding: 15px;width: 8%;border: 1px solid #ccc;margin: auto;background: url(../images/f_arrow.png) no-repeat;border-radius:2px;}
+.prev:hover, .next:hover{background-color:#e0e0e0;}
+.next{background-position: 50% 125%;}
+.prev{background-position: 50% -35%;}
+.time_pick{position:relative;}
+.timepicker_wrap{padding: 10px;z-index: 2;display:none;width:138px;background:#f6f6f6;border:1px solid #ccc;float:left;position:absolute;top:0px;left:0px;}
+/*选择时间点通用样式End*/
+
+
+
+/*较近的服务点*/
+.serve_dot .dl2{
+	overflow:hidden;
+}
+.serve_dot .dl2 dt{
+	height:124px;
+	padding:0px 20px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.serve_dot .dl2 dt .la1{
+	height:124px;
+	line-height:124px;
+	float:left;
+	font-size: 24px;
+	color:#284485;
+}
+.serve_dot .dl2 dt .la2{
+	_width:300px;
+	float:right;
+}
+.serve_dot .dl2 dt .la2 p{
+	width:300px;
+	height:26px;
+	line-height:26px;
+	overflow: hidden;
+}
+.serve_dot .dl2 dt .la2 .p1{
+	margin-top:20px;
+}
+.serve_dot .dl2 dd{
+	margin-top:20px;
+	overflow: hidden;
+	border: 1px solid #dddddd;
+	background: #ffffff;
+}
+
+.serve_dot .dl2 dd .car_banner {
+    padding: 32px 0px 22px 24px;
+    display: inline-block;
+    width: 105%;
+	 border-bottom: 5px solid #ddd;
+}
+.serve_dot .dl2 dd .car_banner .line {
+     height:78px;
+    float: left;
+    border-right: 1px dashed #999;
+}
+.serve_dot .dl2 dd .car_banner a{
+    float: left;
+    text-decoration: none;
+    width: 234px;
+    height: 78px;
+    overflow: hidden;
+}
+
+.serve_dot .dl2 dd .car_banner a:hover img,.serve_dot .dl2 dd .car_banner a.on img{
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px) ;
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1.0;
+}
+.serve_dot .dl2 dd .car_banner a img{
+    width: 234px; height: 60px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px) ;
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    opacity: .9;
+}
+.serve_dot .dl2 dd .car_banner a p { color:#999;font-size: 12px;line-height: 18px; text-align: center;}
+.serve_dot .dl2 dd .car_banner a p font{ color: #e50202;}
+
+.serve_dot .dl2 dd ul {
+	overflow: hidden;
+}
+.serve_dot .dl2 dd ul li{
+	height:140px;
+	padding:20px;
+	overflow: hidden;
+	border-top:1px solid #dddddd;
+}
+.serve_dot .dl2 dd ul li img{
+	width:210px;
+	height: 140px;
+	float:left;
+}
+.serve_dot .dl2 dd ul .li1{
+	border-top:none;
+}
+.serve_dot .dl2 dd ul li .car_word{
+	width:700px;
+	height:140px;
+	float:left;
+	overflow: hidden;
+	margin-left:10px;
+}
+.serve_dot .dl2 dd ul li .car_word .p1{
+	width:680px;
+	height:30px;
+	line-height: 30px;
+	padding: 0px 10px;
+	font-size:18px;
+	color:#333333;
+	margin-top:24px;
+	overflow:hidden;
+}
+.serve_dot .dl2 dd ul li .car_word .p2{
+	width:680px;
+	height:50px;
+	line-height: 50px;
+	padding: 0px 10px;
+}
+.serve_dot .dl2 dd ul li  .predetermine{
+	width:238px;
+	float:left;
+}
+.serve_dot .dl2 dd ul li  .predetermine p{
+	width:148px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin:10px auto 0px;
+	font-size:16px;
+	color: #ff9813;
+}
+.serve_dot .dl2 dd ul li  .predetermine a{
+	width:148px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	overflow:hidden;
+	margin:0px auto;
+	border-radius:4px;
+	background: #ff9813;
+	text-align:center;
+	font-size:16px;
+	color:#ffffff;
+}
+/* 较近的服务点-结束 */
+/* **********中间内容********** */
+/* ********************服务点-结束******************** */
+
+
+
+
+
+/* ********************提交订单（租车）******************** */
+/* **********中间内容********** */
+/*订单信息*/
+.rentcar_order{
+	position:relative;
+	width:1200px;
+	overflow:hidden;
+	margin:0px auto;
+	margin-top:50px;
+}
+.rentcar_order .dl1{
+	width:1198px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.rentcar_order .dl1 dt{
+	height:60px;
+	line-height:60px;
+	padding:0px 20px;
+	border-bottom:1px solid #dddddd;
+	font-size:18px;
+	color:#1d2f4f;
+}
+.rentcar_order .dl1 .dd1{
+	width:600px;
+	height:198px;
+	padding:36px 0px 36px 80px;
+	float:left;
+	overflow:hidden;
+}
+.rentcar_order .dl1 .dd1 ul{
+	width:538px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	border-bottom:none;
+}
+.rentcar_order .dl1 .dd1 ul li{
+	height:48px;
+	line-height:48px;
+	overflow:hidden;
+	border-bottom:1px solid #dddddd;
+	background-color:#fff;
+}
+.rentcar_order .dl1 .dd1 ul li p{
+	height:48px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+.rentcar_order .dl1 .dd1 ul .li1{
+	background-color:#f6f6f6;
+}
+.rentcar_order .dl1 .dd1 ul .li1 .p1{
+	width:85px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li1 .p2{
+	width:332px;
+	padding:0px 10px;
+	text-align:left;
+}
+.rentcar_order .dl1 .dd1 ul .li3{
+	background-color:#f6f6f6;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p1,
+.rentcar_order .dl1 .dd1 ul .li2 .p3{
+	width:85px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p2{
+	width:182px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p2 label{
+	margin:0px 2px;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p2 a{
+	margin-left:2px;
+	color:#1e3c7f;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p4{
+	width:183px;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p4 label{
+	margin:0px 2px;
+}
+.rentcar_order .dl1 .dd1 ul .li2 .p4 a{
+	margin-left:2px;
+	color:#1e3c7f;
+}
+.rentcar_order .dl1 .dd1 ul .li3 .p1,
+.rentcar_order .dl1 .dd1 ul .li3 .p3{
+	width:85px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li3 .p2{
+	width:182px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li3 .p4{
+	width:183px;
+}
+.rentcar_order .dl1 .dd1 ul .li4 .p1,
+.rentcar_order .dl1 .dd1 ul .li4 .p3{
+	width:85px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li4 .p2{
+	width:182px;
+	border-right:1px solid #dddddd;
+}
+.rentcar_order .dl1 .dd1 ul .li4 .p2 input{
+	width:14px;
+	height:14px;
+	vertical-align:middle;
+}
+.rentcar_order .dl1 .dd1 ul .li4 .p2 label{
+	margin-right:10px;
+}
+.rentcar_order .dl1 .dd1 ul .li4 .p4{
+	width:183px;
+}
+.rentcar_order .dl1 .dd2{
+	width:358px;
+	height:198px;
+	padding:36px 80px;
+	float:left;
+}
+.rentcar_order .dl1 .dd2 p{
+	height:40px;
+	line-height:40px;
+}
+.rentcar_order .dl1 .dd2 p label{
+	float:right;
+}
+.rentcar_order .dl1 .dd2 p i{
+	width:110px;
+	height:1px;
+	border-top:1px dashed #999;
+	display:block;
+	float:right;
+	overflow:hidden;
+	margin:20px 10px 0px;
+}
+.rentcar_order .dl1 .dd2 .p4 label{
+	text-align:right;
+	font-size:18px;
+}
+.rentcar_order .dl1 .dd2 .p4 span{
+	color:#ff9813;
+} 
+/*订单信息-结束*/
+/*联系信息*/
+.rentcar_order .contact_infor{
+	width:100%;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.rentcar_order .contact_infor dt{
+	height:60px;
+	line-height:60px;
+	padding:0px 20px;
+	border-bottom:1px solid #dddddd;
+	background-color:#f6f6f6;
+	font-size:18px;
+	color:#1e3c7f;
+}
+.rentcar_order .contact_infor dd{
+	overflow:hidden;
+	padding:14px 0px 30px;
+	_padding-top:30px;
+}
+.rentcar_order .contact_infor dd div{
+	width:100%;
+	height:30px;
+	overflow:hidden;
+	margin-top:16px;
+}
+.rentcar_order .contact_infor dd div label{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	display:block;
+	float:left;
+	margin-left:410px;
+	_margin-left:200px;
+	text-align:right;
+	font-size:16px;
+}
+.rentcar_order .contact_infor dd div .la2{
+	width:120px;
+	margin-left:10px;
+	font-size:14px;
+	text-align:left;
+	color:#e30606;
+}
+.rentcar_order .contact_infor dd div input{
+	width:210px;
+	height:26px;
+	line-height:26px;
+	float:left;
+	padding-left:10px;
+	margin-left:10px;
+	border:1px solid #dddddd;
+}
+.rentcar_order .submits{
+	width:100%;
+	height:50px;
+	text-align:center;
+}
+.rentcar_order .submits input{
+	width:142px;
+	height:42px;
+	line-height:42px;
+	border:0px;
+	border-radius:6px;
+	background-color:#ff9813;
+	text-align:center;
+	font-size:16px;
+	color:#ffffff;
+}
+/*联系信息-结束*/
+/* **********中间内容********** */
+/* ********************提交订单（租车）-结束******************** */
+
+
+
+
+
+
+/* ********************详情页******************** */
+/* **********中间内容********** */
+/*商品详情*/
+.detail_page{
+	overflow:hidden;
+}
+.detail_page .goods_detail{
+	height:360px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.detail_page .goods_detail dt{
+	float: left;
+	width:490px;
+	height:340px;
+	padding:10px;
+	overflow: hidden;
+}
+.detail_page .goods_detail dt img{
+	width:490px;
+	height:340px;
+}
+.detail_page .goods_detail dd{
+	width:668px;
+	height:340px;
+	padding:10px;
+	float:left;
+	overflow: hidden;
+}
+.detail_page .goods_detail dd p{
+	height:40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.detail_page .goods_detail dd p label span{
+	color:#333333;
+}
+.detail_page .goods_detail dd .p1{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	font-size:24px;
+}
+.detail_page .goods_detail dd .p2{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #dddddd;
+	color:#ff9100;
+}
+.detail_page .goods_detail dd .p3{
+	margin-top:20px;
+}
+.detail_page .goods_detail dd .p3 label span{
+	margin-right:6px;
+	font-size:24px;
+	color:#ff2a00;
+}
+.detail_page .goods_detail dd .p3 a{
+	margin-left:6px;
+	font-size:12px;
+	color:#0d4c9b;
+}
+.detail_page .goods_detail dd .p4 .la2{
+	margin-left:20px;
+}
+.detail_page .goods_detail dd .sele_time{
+	width:628px;
+	height:58px;
+	line-height:58px;
+	padding:11px 20px 10px;
+	background-color:#f6f6f6;
+}
+.detail_page .goods_detail dd .sele_time label{
+	float:left;
+}
+#calendar{
+    height: 24px;
+    border: 1px solid #ddd;
+	float:left; 
+	padding-right: 26px; 
+	margin-top:14px;
+	width: 100px; 
+	text-indent: 3px; 
+	background: url("../images/f_dateicon.png") 105px 6px no-repeat;
+}
+.detail_page .goods_detail dd .sele_time a{
+	width:124px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	float:right;
+	margin:10px 10px 0px 0px;
+	border-radius:4px;
+	background-color:#008bce;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	color:#ffffff;
+}
+.detail_page .goods_detail dd .sele_time .saves{
+	width:82px;
+	height:36px;
+	display:block;
+	float:right;
+	padding:1px;
+	margin-top:10px;
+	border-radius:4px;
+	border:none;
+	background-color:#253862;
+	font-size:16px;
+	color:#ffffff;
+	cursor:pointer;
+}
+/*商品详情-结束*/
+
+/*轮船介绍*/
+.detail_page .steamship ul{
+	overflow:hidden;
+	border:1px solid #dddddd;
+	border-bottom:2px solid #008bce;
+	background-color:#ffffff;
+	_width:1198px;
+}
+.detail_page .steamship ul li{
+	float:left;
+	overflow:hidden;
+	border-right:1px solid #dddddd;
+}
+.detail_page .steamship ul .li1{
+	border-right:none;
+	padding-right:1px;
+}
+.detail_page .steamship ul li a{
+	padding:16px 26px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	_background-color:#ffffff;
+}
+.detail_page .steamship ul .li1 a{
+	color:#ffffff;
+	background-color:#008bce;
+}
+.detail_page .steamship .ship_word{
+	width:1200px;
+	line-height:24px;
+	padding:10px 0px;
+	overflow:hidden;
+}
+.detail_page .steamship .ship_title{
+	height:60px;
+	line-height:60px;
+	margin-top:20px;
+	border-bottom:1px solid #dddddd;
+}
+.detail_page .steamship .ship_title a{
+	cursor:default;
+	text-decoration: none;
+	font-size:18px;
+	color:#0d4c9b;
+}
+/*轮船介绍-结束*/
+/* 行程介绍 */
+.detail_page .travel_introduce{
+	overflow:hidden;
+}
+.detail_page .travel_introduce .tr_intro_title{
+	height:60px;
+	line-height:60px;
+	margin-top:20px;
+	border-bottom:1px solid #dddddd;
+}
+.detail_page .travel_introduce .tr_intro_title a{
+	text-decoration: none;
+	cursor:default;
+	font-size:18px;
+	color:#0d4c9b;
+}
+.detail_page .travel_introduce .dd1{
+	padding-top:20px;
+	overflow: hidden;
+}
+.detail_page .travel_introduce .dd1{
+	width:450px;
+	height:450px;
+	float:left;
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd1 img{
+	width:450px;
+	height:450px;
+}
+.detail_page .travel_introduce .dd2{
+	width:620px;
+	float:left;
+	padding:20px 5px 0px;
+	margin-left:20px;
+	overflow: hidden;
+}
+.detail_page .travel_introduce .dd2 .day_title{
+	height:40px;
+	line-height:40px;
+	background-color:#ffffff;
+	font-size:16px;
+	color:#999999;
+}
+.detail_page .travel_introduce .dd2 .day_title p{
+	width:155px;
+	float:left;
+	text-align:center;
+}
+.detail_page .travel_introduce .dd2 ul{
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd2 ul li{
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	border-bottom:1px dashed #dddddd;
+	font-size:16px;
+}
+.detail_page .travel_introduce .dd2 ul li p{
+	width:155px;
+	float:left;
+	text-align:center;
+}
+.detail_page .think{
+	height:50px;
+	line-height:50px;
+	text-align:right;
+	font-size:12px;
+	color:#999999;
+}
+.detail_page .think span{
+	color:#ed0505;
+}
+.detail_page .travel_introduce .dd3{
+	padding-top: 50px;
+	width:1200px;
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd3 .dd3_left{
+	width:78px;
+	float:left;
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd3 .dd3_left li{
+	margin-bottom:14px;
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd3 .dd3_left li a{
+	width:78px;
+	height:26px;
+	line-height: 26px;
+	display:block;
+	background-color:#999999;
+	text-align:center;
+	text-decoration:none;
+	color:#dddddd;
+}
+.detail_page .travel_introduce .dd3 .dd3_left .li1 a{
+	background-color:#008bce;
+	color:#ffffff;
+}
+.detail_page .travel_introduce .dd3 .dd3_right{
+	width:1050px;
+	float:left;
+	padding-left:60px;
+	margin-left:12px;
+	background:url(../images/list_dot.png) repeat-y 30px;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li{
+	position:relative;
+	width:1050px;
+	padding-bottom:40px;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .photo{
+	position:absolute;
+	top:0px;
+	left:-32.5px;
+	*+left:-33px;
+	_left:-33px;
+	z-index:2;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .p1{
+	height:40px;
+	_line-height:20px;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .p1 a{
+	font-size:18px;
+	color:#008bce;
+	cursor:default;
+	text-decoration:none;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .p2{
+	line-height:30px;
+	font-size:12px;
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .meal{
+	margin-top:10px;
+	background-color:#ffffff;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .meal p{
+	height:30px;
+	line-height:30px;
+	padding:0px 20px;
+	overflow:hidden;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .pic {
+	width:1050px;
+	padding:20px 0px;
+}
+.detail_page .travel_introduce .dd3 .dd3_right li .pic:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display: block;
+	overflow: hidden;
+} 
+.detail_page .travel_introduce .dd3 .dd3_right li .pic img{
+	width:190px;
+	height:140px;
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+/* 行程介绍-结束 */
+/* 费用说明 */
+.detail_page .cost{
+	overflow:hidden;
+}
+.detail_page .cost .cost_title{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+.detail_page .cost .cost_title a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.detail_page .cost .cost_div1{
+	overflow:hidden;
+	padding:20px 0px;
+}
+.detail_page .cost .cost_div1 div{
+	width:100px;
+	float:left;
+	font-size:12px;
+}
+.detail_page .cost .cost_div1 ul{
+	width:1100px;
+	float:left;
+	overflow:hidden;
+}
+.detail_page .cost .cost_div1 ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.detail_page .cost .cost_div1 ul li p{
+	line-height:20px;
+}
+/* 费用说明-结束 */
+/* 签证/签注 */
+.detail_page .visa{
+	overflow:hidden;
+}
+.detail_page .visa .visa_title{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+.detail_page .visa .visa_title a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.detail_page .visa .visa_word{
+	overflow:hidden;
+	padding:10px 0px;
+}
+.detail_page .visa .visa_word ul{
+	width:1200px;
+	float:left;
+	overflow:hidden;
+}
+.detail_page .visa .visa_word ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.detail_page .visa .visa_word ul li p{
+	line-height:20px;
+}
+/* 签证/签注-结束 */
+/* 预定须知 */
+.detail_page .predeter{
+	overflow:hidden;
+}
+.detail_page .predeter .predeter_title{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.detail_page .predeter .predeter_title a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.detail_page .predeter .predeter_word{
+	overflow:hidden;
+	padding:10px 0px;
+}
+.detail_page .predeter .predeter_word ul{
+	width:1200px;
+	float:left;
+	overflow:hidden;
+}
+.detail_page .predeter .predeter_word ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.detail_page .predeter .predeter_word ul li p{
+	line-height:20px;
+}
+.detail_page .predeter .predeter_word ul .sonp p{
+	padding-left:20px;
+	margin-top:10px;
+}
+/* 预定须知-结束 */
+/* 旅友点评 */
+.detail_page .people_conment{
+	overflow:hidden;
+}
+.detail_page .people_conment .peo_title{    
+	height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.detail_page .people_conment .peo_title a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.detail_page .people_conment .dd1{
+	height:108px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.detail_page .people_conment .dd1 div{
+	height:108px;
+	float:left;
+}
+.detail_page .people_conment .dd1 .div1{
+	width:348px;
+	border-right:1px solid #dddddd;
+}
+.detail_page .people_conment .dd1 .div1 p{
+	width:308px;
+	height:20px;
+	padding:0px 20px;
+	overflow:hidden;
+	text-align:center;
+}
+.detail_page .people_conment .dd1 .div1 .p1{
+	height:40px;
+	line-height: 40px;
+	margin-top:20px;
+}
+.detail_page .people_conment .dd1 .div1 .p1 span{
+	font-size:30px;
+	color:#fc870a;
+}
+.detail_page .people_conment .dd1 .div1 .p2 span{
+	color:#fc870a;
+}
+.detail_page .people_conment .dd1 .div2{
+	width:482px;
+	border-right:1px solid #dddddd;
+}
+.detail_page .people_conment .dd1 .div2 p{
+	height:26px;
+	line-height:26px;
+}
+.detail_page .people_conment .dd1 .div2 .p1{
+	margin-top:16px;
+}
+.detail_page .people_conment .dd1 .div2 p label{
+	float:left;
+	margin-right:10px;
+	margin-left:134px;
+}
+.detail_page .people_conment .dd1 .div2 p a{
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin:0px 2px;
+	background:url(../images/starno.png) no-repeat;
+	background-size:20px 20px;
+}
+.detail_page .people_conment .dd1 .div2 p .staryes{
+	background:url(../images/staryes.png) no-repeat;
+	background-size:20px 20px;
+}
+.detail_page .people_conment .dd1 .div3{
+	width:366px;
+	text-align:center;
+}
+.detail_page .people_conment .dd1 .div3 input{
+	width:148px;
+	height:36px;
+	padding:1px;
+	margin-top:36px;
+	border:none;
+	border-radius:4px;
+	background-color:#fc870a;
+	font-size:18px;
+	color:#ffffff;
+	cursor:pointer;
+}
+.detail_page .people_conment .dd2{
+	overflow:hidden;
+}
+.detail_page .people_conment .dd2 ul{
+	overflow:hidden;
+}
+.detail_page .people_conment .dd2 ul li{
+	overflow:hidden;
+	margin-bottom:40px;
+}
+.detail_page .people_conment .dd2 ul .li3{
+	display:none;
+}
+.detail_page .people_conment .dd2 ul li div{
+	float:left;
+}
+.detail_page .people_conment .dd2 .li_left{
+	width:80px;
+}
+.detail_page .people_conment .dd2 .li_left img{
+	width:80px;
+	height:80px;
+	display:block;
+	border-radius:50%;
+}
+.detail_page .people_conment .dd2 .li_left p{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	text-align:center;
+}
+.detail_page .people_conment .dd2 .li_right{
+	width:1080px;
+	padding-left:40px;
+	overflow:hidden;
+}
+.detail_page .people_conment .dd2 .li_right .div1{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	background-color:#ffffff;
+	font-size:12px;
+	color:#999999;
+}
+.detail_page .people_conment .dd2 .li_right .div1 label{
+	float:left;
+	margin-left:20px;
+}
+.detail_page .people_conment .dd2 .li_right .div1 label img{
+	width:14px;
+	height:14px;
+	_margin-top:10px;
+}
+.detail_page .people_conment .dd2 .li_right .div2{
+	width:1080px;
+}
+.detail_page .people_conment .dd2 .li_right .div2 p{
+	width:100%;
+	line-height: 24px;
+	overflow:hidden;
+	margin:20px 0px;
+	font-size: 12px;
+}
+.detail_page .people_conment .dd2 .li_right .div3{
+	width:1080px;
+	height:56px;
+	overflow:hidden;
+}
+.detail_page .people_conment .dd2 .li_right .div3 img{
+	width:88px;
+	height:56px;
+	margin-right:10px;
+}
+.detail_page .people_conment .dd2 .li_right .div4{
+	height:40px;
+	line-height: 40px;
+	font-size:12px;
+	color:#999999;
+}
+.detail_page .people_conment .dd2 .li_right .div5{
+	width:1060px;
+	padding-left:20px;
+	background:url(../images/respone.png) no-repeat;
+	background-size:16px 16px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+}
+.detail_page .people_conment .dd2 .li_right .div5 span{
+	font-weight:normal;
+}
+.detail_page .people_conment .dd2 .cllick_more{
+	width:1080px;
+	text-align:center;
+}
+.detail_page .people_conment .dd2 .cllick_more a{
+	font-size:16px;
+	color:#999999;
+}
+/* 旅友点评-结束 */
+/* **********中间内容********** */
+/* ********************详情页-结束******************** */
+
+
+
+
+
+
+/* ********************特产详情页******************** */
+/* **********中间内容********** */
+/*商品详情*/
+.specialty_detail{
+	overflow:hidden;
+}
+.specialty_detail .goods_detail{
+	height:360px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.specialty_detail .goods_detail dt{
+	float: left;
+	width:490px;
+	height:340px;
+	padding:10px;
+	overflow: hidden;
+}
+.specialty_detail .goods_detail dt img{
+	width:490px;
+	height:340px;
+}
+.specialty_detail .goods_detail dd{
+	width:668px;
+	height:340px;
+	padding:10px;
+	float:left;
+	overflow: hidden;
+}
+.specialty_detail .goods_detail dd p{
+	height:40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.specialty_detail .goods_detail dd p label span{
+	color:#333333;
+}
+.specialty_detail .goods_detail dd .p1{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	font-size:24px;
+}
+.specialty_detail .goods_detail dd .p2{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #dddddd;
+	color:#ff9100;
+}
+.specialty_detail .goods_detail dd .p3{
+	margin-top:20px;
+}
+.specialty_detail .goods_detail dd .p3 label span{
+	margin-right:6px;
+	font-size:24px;
+	color:#ff2a00;
+}
+.specialty_detail .goods_detail dd .p3 a{
+	margin-left:6px;
+	font-size:12px;
+	color:#0d4c9b;
+}
+.specialty_detail .goods_detail dd .p4 .la2{
+	margin-left:20px;
+}
+.specialty_detail .goods_detail dd .sele_time{
+	width:628px;
+	height:58px;
+	line-height:58px;
+	padding:11px 20px 10px;
+	background-color:#f6f6f6;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left{
+	width:314px;
+	height:56px;
+	float:left;
+	overflow:hidden;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p1{
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p1 label{
+	float:left;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p1 a{
+	width:74px;
+	height:22px;
+	line-height:22px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-left:10px;
+	margin-top:4px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#ffffff;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p1 .colora{
+	background-color: #ff9100;
+	color:#ffffff;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p2{
+	color:#666666;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p2 input{
+	width:18px;
+	height:18px;
+}
+.specialty_detail .goods_detail dd .sele_time .form_left .p2 .input_text{
+	width:40px;
+	height:16px;
+	text-align:center;
+}
+.specialty_detail .goods_detail dd .sele_time .form_right{
+	width:314px;
+	height:56px;
+	float:left;
+	overflow:hidden;
+}
+#calendar{
+    height: 24px;
+    border: 1px solid #ddd;
+	float:left; 
+	padding-right: 26px; 
+	margin-top:14px;
+	width: 100px; 
+	text-indent: 3px; 
+	background: url("../images/f_dateicon.png") 105px 6px no-repeat;
+}
+.specialty_detail .goods_detail dd .sele_time .form_right a{
+	width:124px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	float:right;
+	margin:10px 10px 0px 0px;
+	border-radius:4px;
+	background-color:#008bce;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	color:#ffffff;
+}
+.specialty_detail .goods_detail dd .sele_time .saves{
+	width:82px;
+	height:36px;
+	display:block;
+	float:right;
+	padding:1px;
+	margin-top:10px;
+	border-radius:4px;
+	border:none;
+	background-color:#253862;
+	font-size:16px;
+	color:#ffffff;
+	cursor:pointer;
+}
+/*商品详情-结束*/
+
+/*轮船介绍*/
+.specialty_detail .steamship ul{
+	overflow:hidden;
+	border:1px solid #dddddd;
+	border-bottom:2px solid #008bce;
+	background-color:#ffffff;
+	_width:1198px;
+}
+.specialty_detail .steamship ul li{
+	float:left;
+	overflow:hidden;
+	border-right:1px solid #dddddd;
+}
+.specialty_detail .steamship ul .li1{
+	border-right:none;
+	padding-right:1px;
+}
+.specialty_detail .steamship ul li a{
+	padding:16px 26px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	_background-color:#ffffff;
+}
+.specialty_detail .steamship ul .li1 a{
+	color:#ffffff;
+	background-color:#008bce;
+}
+.specialty_detail .steamship .ship_word{
+	width:1200px;
+	line-height:24px;
+	padding:10px 0px;
+	overflow:hidden;
+}
+.specialty_detail .steamship .ship_title{
+	height:60px;
+	line-height:60px;
+	margin-top:20px;
+	border-bottom:1px solid #dddddd;
+}
+.specialty_detail .steamship .ship_title a{
+	cursor:default;
+	text-decoration: none;
+	font-size:18px;
+	color:#0d4c9b;
+}
+.specialty_detail .steamship img{
+	width:1200px;
+	display:block;
+}
+/*轮船介绍-结束*/
+/* 行程介绍 */
+.specialty_detail .travel_introduce{
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce dt{
+	height:60px;
+	line-height:60px;
+	margin-top:20px;
+	border-bottom:1px solid #dddddd;
+}
+.specialty_detail .travel_introduce dt a{
+	text-decoration: none;
+	cursor:default;
+	font-size:18px;
+	color:#0d4c9b;
+}
+.specialty_detail .travel_introduce dd{
+	margin-top:20px;
+	overflow: hidden;
+}
+.specialty_detail .travel_introduce .dd1{
+	width:550px;
+	height:300px;
+	float:left;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd1 img{
+	width:550px;
+	height:300px;
+}
+.specialty_detail .travel_introduce .dd2{
+	width:620px;
+	float:left;
+	padding:0px 5px;
+	margin-left:20px;
+	overflow: hidden;
+}
+.specialty_detail .travel_introduce .dd2 .day_title{
+	height:40px;
+	line-height:40px;
+	background-color:#ffffff;
+	font-size:16px;
+	color:#999999;
+}
+.specialty_detail .travel_introduce .dd2 .day_title p{
+	width:155px;
+	float:left;
+	text-align:center;
+}
+.specialty_detail .travel_introduce .dd2 ul{
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd2 ul li{
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	border-bottom:1px dashed #dddddd;
+	font-size:16px;
+}
+.specialty_detail .travel_introduce .dd2 ul li p{
+	width:155px;
+	float:left;
+	text-align:center;
+}
+.specialty_detail .think{
+	height:50px;
+	line-height:50px;
+	text-align:right;
+	font-size:12px;
+	color:#999999;
+}
+.specialty_detail .think span{
+	color:#ed0505;
+}
+.specialty_detail .travel_introduce .dd3{
+	width:1200px;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_left{
+	width:78px;
+	float:left;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_left li{
+	margin-bottom:14px;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_left li a{
+	width:78px;
+	height:26px;
+	line-height: 26px;
+	display:block;
+	background-color:#999999;
+	text-align:center;
+	text-decoration:none;
+	color:#dddddd;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_left .li1 a{
+	background-color:#008bce;
+	color:#ffffff;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right{
+	width:1110px;
+	float:left;
+	overflow:hidden;
+	margin-left:12px;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li{
+	padding-left:60px;
+	padding-bottom:40px;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .p1{
+	height:40px;
+	line-height:18px;
+	_line-height:20px;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .p1 a{
+	font-size:18px;
+	color:#008bce;
+	cursor:default;
+	text-decoration:none;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .p2{
+	line-height:30px;
+	font-size:12px;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .meal{
+	margin-top:10px;
+	background-color:#ffffff;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .meal p{
+	height:30px;
+	line-height:30px;
+	padding:0px 20px;
+	overflow:hidden;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .pic {
+	width:1050px;
+	padding:20px 0px;
+}
+.specialty_detail .travel_introduce .dd3 .dd3_right li .pic:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display: block;
+	overflow: hidden;
+} 
+.specialty_detail .travel_introduce .dd3 .dd3_right li .pic img{
+	width:190px;
+	height:140px;
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+/* 行程介绍-结束 */
+/* 费用说明 */
+.specialty_detail .cost{
+	overflow:hidden;
+}
+.specialty_detail .cost dt{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+.specialty_detail .cost dt a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.specialty_detail .cost dd{
+	overflow:hidden;
+	padding:20px 0px;
+}
+.specialty_detail .cost dd div{
+	width:100px;
+	float:left;
+	font-size:12px;
+}
+.specialty_detail .cost dd ul{
+	width:1100px;
+	float:left;
+	overflow:hidden;
+}
+.specialty_detail .cost dd ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.specialty_detail .cost dd ul li p{
+	line-height:20px;
+}
+/* 费用说明-结束 */
+/* 签证/签注 */
+.specialty_detail .visa{
+	overflow:hidden;
+}
+.specialty_detail .visa dt{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+.specialty_detail .visa dt a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.specialty_detail .visa dd{
+	overflow:hidden;
+	padding:10px 0px;
+}
+.specialty_detail .visa dd ul{
+	width:1200px;
+	float:left;
+	overflow:hidden;
+}
+.specialty_detail .visa dd ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.specialty_detail .visa dd ul li p{
+	line-height:20px;
+}
+/* 签证/签注-结束 */
+/* 预定须知 */
+.specialty_detail .predeter{
+	overflow:hidden;
+}
+.specialty_detail .predeter dt{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.specialty_detail .predeter dt a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.specialty_detail .predeter dd{
+	overflow:hidden;
+	padding:10px 0px;
+}
+.specialty_detail .predeter dd ul{
+	width:1200px;
+	float:left;
+	overflow:hidden;
+}
+.specialty_detail .predeter dd ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.specialty_detail .predeter dd ul li p{
+	line-height:20px;
+}
+.specialty_detail .predeter dd ul .sonp p{
+	padding-left:20px;
+	margin-top:10px;
+}
+/* 预定须知-结束 */
+/* 旅友点评 */
+.specialty_detail .people_conment{
+	overflow:hidden;
+}
+.specialty_detail .people_conment dt{    
+	height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.specialty_detail .people_conment dt a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.specialty_detail .people_conment .dd1{
+	height:108px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.specialty_detail .people_conment .dd1 div{
+	height:108px;
+	float:left;
+}
+.specialty_detail .people_conment .dd1 .div1{
+	width:348px;
+	border-right:1px solid #dddddd;
+}
+.specialty_detail .people_conment .dd1 .div1 p{
+	width:308px;
+	height:20px;
+	padding:0px 20px;
+	overflow:hidden;
+	text-align:center;
+}
+.specialty_detail .people_conment .dd1 .div1 .p1{
+	height:40px;
+	line-height: 40px;
+	margin-top:20px;
+}
+.specialty_detail .people_conment .dd1 .div1 .p1 span{
+	font-size:30px;
+	color:#fc870a;
+}
+.specialty_detail .people_conment .dd1 .div1 .p2 span{
+	color:#fc870a;
+}
+.specialty_detail .people_conment .dd1 .div2{
+	width:482px;
+	border-right:1px solid #dddddd;
+}
+.specialty_detail .people_conment .dd1 .div2 p{
+	height:26px;
+	line-height:26px;
+}
+.specialty_detail .people_conment .dd1 .div2 .p1{
+	margin-top:16px;
+}
+.specialty_detail .people_conment .dd1 .div2 p label{
+	float:left;
+	margin-right:10px;
+	margin-left:134px;
+}
+.specialty_detail .people_conment .dd1 .div2 p a{
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin:0px 2px;
+	background:url(../images/starno.png) no-repeat;
+	background-size:20px 20px;
+}
+.specialty_detail .people_conment .dd1 .div2 p .staryes{
+	background:url(../images/staryes.png) no-repeat;
+	background-size:20px 20px;
+}
+.specialty_detail .people_conment .dd1 .div3{
+	width:366px;
+	text-align:center;
+}
+.specialty_detail .people_conment .dd1 .div3 input{
+	width:148px;
+	height:36px;
+	padding:1px;
+	margin-top:36px;
+	border:none;
+	border-radius:4px;
+	background-color:#fc870a;
+	font-size:18px;
+	color:#ffffff;
+	cursor:pointer;
+}
+.specialty_detail .people_conment .dd2{
+	overflow:hidden;
+}
+.specialty_detail .people_conment .dd2 ul{
+	overflow:hidden;
+}
+.specialty_detail .people_conment .dd2 ul li{
+	overflow:hidden;
+	margin-bottom:40px;
+}
+.specialty_detail .people_conment .dd2 ul .li3{
+	display:none;
+}
+.specialty_detail .people_conment .dd2 ul li div{
+	float:left;
+}
+.specialty_detail .people_conment .dd2 .li_left{
+	width:80px;
+}
+.specialty_detail .people_conment .dd2 .li_left img{
+	width:80px;
+	height:80px;
+	display:block;
+	border-radius:50%;
+}
+.specialty_detail .people_conment .dd2 .li_left p{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	text-align:center;
+}
+.specialty_detail .people_conment .dd2 .li_right{
+	width:1080px;
+	padding-left:40px;
+	overflow:hidden;
+}
+.specialty_detail .people_conment .dd2 .li_right .div1{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	background-color:#ffffff;
+	font-size:12px;
+	color:#999999;
+}
+.specialty_detail .people_conment .dd2 .li_right .div1 label{
+	float:left;
+	margin-left:20px;
+}
+.specialty_detail .people_conment .dd2 .li_right .div1 label img{
+	width:14px;
+	height:14px;
+	_margin-top:10px;
+}
+.specialty_detail .people_conment .dd2 .li_right .div2{
+	width:1080px;
+}
+.specialty_detail .people_conment .dd2 .li_right .div2 p{
+	width:100%;
+	line-height: 24px;
+	overflow:hidden;
+	margin:20px 0px;
+	font-size: 12px;
+}
+.specialty_detail .people_conment .dd2 .li_right .div3{
+	width:1080px;
+	height:56px;
+	overflow:hidden;
+}
+.specialty_detail .people_conment .dd2 .li_right .div3 img{
+	width:88px;
+	height:56px;
+	margin-right:10px;
+}
+.specialty_detail .people_conment .dd2 .li_right .div4{
+	height:40px;
+	line-height: 40px;
+	font-size:12px;
+	color:#999999;
+}
+.specialty_detail .people_conment .dd2 .li_right .div5{
+	width:1060px;
+	padding-left:20px;
+	background:url(../images/respone.png) no-repeat;
+	background-size:16px 16px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+}
+.specialty_detail .people_conment .dd2 .li_right .div5 span{
+	font-weight:normal;
+}
+.specialty_detail .people_conment .dd2 .cllick_more{
+	width:1080px;
+	text-align:center;
+}
+.specialty_detail .people_conment .dd2 .cllick_more a{
+	font-size:16px;
+	color:#999999;
+}
+/* 旅友点评-结束 */
+/* **********中间内容********** */
+/* ********************特产详情页-结束******************** */
+
+
+
+
+
+
+/* ********************立即评价******************** */
+/* **********中间内容********** */
+/*立即评价*/
+.now_valuetion{
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:999;
+	width:100%;
+	height:100%;
+	display:none;
+	overflow:hidden;
+	background:url(../images/bgpic.png) repeat;
+}
+.now_valuetion dl{
+	position:relative;
+	left:-360px;
+	width:678px;
+	height:552px;
+	padding:30px 60px;
+	margin-top:8%;
+	margin-left:50%;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.now_valuetion dl dt{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	font-size: 18px;
+}
+.now_valuetion dl dt .closei{
+	position:absolute;
+	top:20px;
+	right:30px;
+	width:48px;
+	height:18px;
+	line-height:18px;
+	display:block;
+	overflow:hidden;
+	font-size:16px;
+	text-decoration:none;
+	color: #999999;
+	cursor:pointer;
+}
+.now_valuetion dl dd{
+	overflow: hidden;
+}
+.now_valuetion dl .dd1{
+	height:10px;
+}
+.now_valuetion dl .dd2{
+	height:50px;
+}
+.now_valuetion dl .dd2 img{
+	width:70px;
+	height:50px;
+	float:left;
+}
+.now_valuetion dl .dd2 label{
+	width:588px;
+	height:50px;
+	line-height:50px;
+	margin-left:20px;
+	display:block;
+	float:left;
+	overflow: hidden;
+	font-size:16px;
+}
+.now_valuetion dl .dd3{
+	height:50px;
+	line-height: 50px;
+	margin-top:20px;
+	font-size:18px;
+}
+.now_valuetion dl .dd4,
+.now_valuetion dl .dd5,
+.now_valuetion dl .dd6{
+	height:32px;
+	line-height:32px;
+}
+.now_valuetion dl .dd4 label,
+.now_valuetion dl .dd5 label,
+.now_valuetion dl .dd6 label{
+	float:left;
+}
+.now_valuetion dl .dd4 .la2,
+.now_valuetion dl .dd5 .la2,
+.now_valuetion dl .dd6 .la2{
+	margin-left:20px;
+}
+.now_valuetion dl .dd4 a,
+.now_valuetion dl .dd5 a,
+.now_valuetion dl .dd6 a{
+	width:16px;
+	height:16px;
+	display:block;
+	float:left;
+	overflow: hidden;
+	margin:8px 0px 0px 10px;
+	background:url(../images/starno.png) no-repeat;
+	background-size:16px 16px;
+}
+.now_valuetion dl .dd4 a.staryes,
+.now_valuetion dl .dd5 a.staryes,
+.now_valuetion dl .dd6 a.staryes{
+	background:url(../images/staryes.png) no-repeat;
+	background-size:16px 16px;
+}
+.now_valuetion dl .dd7{
+	height:50px;
+	line-height:50px;
+	margin-top:20px;
+	font-size:18px; 
+}
+.now_valuetion dl .dd8 textarea{
+	width:676px;
+	height:86px;
+	line-height:20px;
+	border:1px solid #dddddd;
+	background-color:#f9f9f9;
+}
+.now_valuetion dl .dd9{
+	margin-top:40px;
+	text-align:right;
+}
+.now_valuetion dl .dd9 input{
+	width:106px;
+	height:34px;
+	padding: 1px;
+	border:none;
+	background-color:#ffa421;
+	font-size:16px;
+	color:#ffffff;
+	cursor:pointer;
+}
+/*立即评价-结束*/
+/*商品详情*/
+.now_conmont{
+	overflow:hidden;
+}
+.now_conmont .goods_detail{
+	height:360px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.now_conmont .goods_detail dt{
+	float: left;
+	width:490px;
+	height:340px;
+	padding:10px;
+	overflow: hidden;
+}
+.now_conmont .goods_detail dt img{
+	width:490px;
+	height:340px;
+}
+.now_conmont .goods_detail dd{
+	width:668px;
+	height:340px;
+	padding:10px;
+	float:left;
+	overflow: hidden;
+}
+.now_conmont .goods_detail dd p{
+	height:40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.now_conmont .goods_detail dd p label span{
+	color:#333333;
+}
+.now_conmont .goods_detail dd .p1{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	font-size:24px;
+}
+.now_conmont .goods_detail dd .p2{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #dddddd;
+	color:#ff9100;
+}
+.now_conmont .goods_detail dd .p3{
+	margin-top:20px;
+}
+.now_conmont .goods_detail dd .p3 label span{
+	margin-right:6px;
+	font-size:24px;
+	color:#ff2a00;
+}
+.now_conmont .goods_detail dd .p3 a{
+	margin-left:6px;
+	font-size:12px;
+	color:#0d4c9b;
+}
+.now_conmont .goods_detail dd .p4 .la2{
+	margin-left:20px;
+}
+.now_conmont .goods_detail dd .sele_time{
+	width:628px;
+	height:58px;
+	line-height:58px;
+	padding:11px 20px 10px;
+	background-color:#f6f6f6;
+}
+.now_conmont .goods_detail dd .sele_time .form_left{
+	width:314px;
+	height:56px;
+	float:left;
+	overflow:hidden;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p1{
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p1 label{
+	float:left;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p1 a{
+	width:74px;
+	height:22px;
+	line-height:22px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-left:10px;
+	margin-top:4px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#ffffff;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p1 .colora{
+	background-color: #ff9100;
+	color:#ffffff;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p2{
+	color:#666666;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p2 input{
+	width:18px;
+	height:18px;
+}
+.now_conmont .goods_detail dd .sele_time .form_left .p2 .input_text{
+	width:40px;
+	height:16px;
+	text-align:center;
+}
+.now_conmont .goods_detail dd .sele_time .form_right{
+	width:314px;
+	height:56px;
+	float:left;
+	overflow:hidden;
+}
+.calen{
+    height: 24px;
+    border: 1px solid #ddd;
+	float:left; 
+	padding-right: 26px; 
+	margin-top:14px;
+	width: 100px; 
+	text-indent: 3px; 
+	background: url("../images/f_dateicon.png") 105px 6px no-repeat;
+}
+.now_conmont .goods_detail dd .sele_time .form_right a{
+	width:124px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	float:right;
+	margin:10px 10px 0px 0px;
+	border-radius:4px;
+	background-color:#008bce;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	color:#ffffff;
+}
+.now_conmont .goods_detail dd .sele_time .saves{
+	width:82px;
+	height:36px;
+	display:block;
+	float:right;
+	padding:1px;
+	margin-top:10px;
+	border-radius:4px;
+	border:none;
+	background-color:#253862;
+	font-size:16px;
+	color:#ffffff;
+	cursor:pointer;
+}
+/*商品详情-结束*/
+
+/*轮船介绍*/
+.now_conmont .steamship ul{
+	overflow:hidden;
+	border:1px solid #dddddd;
+	border-bottom:2px solid #008bce;
+	background-color:#ffffff;
+	_width:1198px;
+}
+.now_conmont .steamship ul li{
+	float:left;
+	overflow:hidden;
+	border-right:1px solid #dddddd;
+}
+.now_conmont .steamship ul .li1{
+	border-right:none;
+	padding-right:1px;
+}
+.now_conmont .steamship ul li a{
+	padding:16px 26px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	_background-color:#ffffff;
+}
+.now_conmont .steamship ul .li1 a{
+	color:#ffffff;
+	background-color:#008bce;
+}
+.now_conmont .steamship .ship_word{
+	width:1200px;
+	line-height:24px;
+	padding:10px 0px;
+	overflow:hidden;
+}
+.now_conmont .steamship .ship_title{
+	height:60px;
+	line-height:60px;
+	margin-top:20px;
+	border-bottom:1px solid #dddddd;
+}
+.now_conmont .steamship .ship_title a{
+	cursor:default;
+	text-decoration: none;
+	font-size:18px;
+	color:#0d4c9b;
+}
+.now_conmont .steamship img{
+	width:1200px;
+	display:block;
+}
+/*轮船介绍-结束*/
+/* 预定须知 */
+.now_conmont .predeter{
+	overflow:hidden;
+}
+.now_conmont .predeter dt{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.now_conmont .predeter dt a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.now_conmont .predeter dd{
+	overflow:hidden;
+	padding:10px 0px;
+}
+.now_conmont .predeter dd ul{
+	width:1200px;
+	float:left;
+	overflow:hidden;
+}
+.now_conmont .predeter dd ul li{
+	overflow:hidden;
+	padding: 0px 0px 10px;
+	font-size:12px;
+}
+.now_conmont .predeter dd ul li p{
+	line-height:20px;
+}
+.now_conmont .predeter dd ul .sonp p{
+	padding-left:20px;
+	margin-top:10px;
+}
+/* 预定须知-结束 */
+/* 旅友点评 */
+.now_conmont .people_conment{
+	overflow:hidden;
+}
+.now_conmont .people_conment dt{    
+	height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.now_conmont .people_conment dt a{
+	text-decoration: none;
+	cursor:default;
+    font-size: 18px;
+    color: #0d4c9b;
+}
+.now_conmont .people_conment .dd1{
+	height:108px;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.now_conmont .people_conment .dd1 div{
+	height:108px;
+	float:left;
+}
+.now_conmont .people_conment .dd1 .div1{
+	width:348px;
+	border-right:1px solid #dddddd;
+}
+.now_conmont .people_conment .dd1 .div1 p{
+	width:308px;
+	height:20px;
+	padding:0px 20px;
+	overflow:hidden;
+	text-align:center;
+}
+.now_conmont .people_conment .dd1 .div1 .p1{
+	height:40px;
+	line-height: 40px;
+	margin-top:20px;
+}
+.now_conmont .people_conment .dd1 .div1 .p1 span{
+	font-size:30px;
+	color:#fc870a;
+}
+.now_conmont .people_conment .dd1 .div1 .p2 span{
+	color:#fc870a;
+}
+.now_conmont .people_conment .dd1 .div2{
+	width:482px;
+	border-right:1px solid #dddddd;
+}
+.now_conmont .people_conment .dd1 .div2 p{
+	height:26px;
+	line-height:26px;
+}
+.now_conmont .people_conment .dd1 .div2 .p1{
+	margin-top:16px;
+}
+.now_conmont .people_conment .dd1 .div2 p label{
+	float:left;
+	margin-right:10px;
+	margin-left:134px;
+}
+.now_conmont .people_conment .dd1 .div2 p a{
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin:0px 2px;
+	background:url(../images/starno.png) no-repeat;
+	background-size:20px 20px;
+}
+.now_conmont .people_conment .dd1 .div2 p .staryes{
+	background:url(../images/staryes.png) no-repeat;
+	background-size:20px 20px;
+}
+.now_conmont .people_conment .dd1 .div3{
+	width:366px;
+	text-align:center;
+}
+.now_conmont .people_conment .dd1 .div3 input{
+	width:148px;
+	height:36px;
+	padding:1px;
+	margin-top:36px;
+	border:none;
+	border-radius:4px;
+	background-color:#fc870a;
+	font-size:18px;
+	color:#ffffff;
+	cursor:pointer;
+}
+.now_conmont .people_conment .dd2{
+	overflow:hidden;
+}
+.now_conmont .people_conment .dd2 ul{
+	overflow:hidden;
+}
+.now_conmont .people_conment .dd2 ul li{
+	overflow:hidden;
+	margin-bottom:40px;
+}
+.now_conmont .people_conment .dd2 ul .li3{
+	display:none;
+}
+.now_conmont .people_conment .dd2 ul li div{
+	float:left;
+}
+.now_conmont .people_conment .dd2 .li_left{
+	width:80px;
+}
+.now_conmont .people_conment .dd2 .li_left img{
+	width:80px;
+	height:80px;
+	display:block;
+	border-radius:50%;
+}
+.now_conmont .people_conment .dd2 .li_left p{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	text-align:center;
+}
+.now_conmont .people_conment .dd2 .li_right{
+	width:1080px;
+	padding-left:40px;
+	overflow:hidden;
+}
+.now_conmont .people_conment .dd2 .li_right .div1{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	background-color:#ffffff;
+	font-size:12px;
+	color:#999999;
+}
+.now_conmont .people_conment .dd2 .li_right .div1 label{
+	float:left;
+	margin-left:20px;
+}
+.now_conmont .people_conment .dd2 .li_right .div1 label img{
+	width:14px;
+	height:14px;
+	_margin-top:10px;
+}
+.now_conmont .people_conment .dd2 .li_right .div2{
+	width:1080px;
+}
+.now_conmont .people_conment .dd2 .li_right .div2 p{
+	width:100%;
+	line-height: 24px;
+	overflow:hidden;
+	margin:20px 0px;
+	font-size: 12px;
+}
+.now_conmont .people_conment .dd2 .li_right .div3{
+	width:1080px;
+	height:56px;
+	overflow:hidden;
+}
+.now_conmont .people_conment .dd2 .li_right .div3 img{
+	width:88px;
+	height:56px;
+	margin-right:10px;
+}
+.now_conmont .people_conment .dd2 .li_right .div4{
+	height:40px;
+	line-height: 40px;
+	font-size:12px;
+	color:#999999;
+}
+.now_conmont .people_conment .dd2 .li_right .div5{
+	width:1060px;
+	padding-left:20px;
+	background:url(../images/respone.png) no-repeat;
+	background-size:16px 16px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999999;
+}
+.now_conmont .people_conment .dd2 .li_right .div5 span{
+	font-weight:normal;
+}
+.now_conmont .people_conment .dd2 .cllick_more{
+	width:1080px;
+	text-align:center;
+}
+.now_conmont .people_conment .dd2 .cllick_more a{
+	font-size:16px;
+	color:#999999;
+}
+/* 旅友点评-结束 */
+/* **********中间内容********** */
+/* ********************立即评价-结束******************** */

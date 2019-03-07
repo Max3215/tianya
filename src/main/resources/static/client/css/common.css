@@ -1,0 +1,342 @@
+/* ********************首页******************** */
+/* **********头部********** */
+.top{
+	width:1200px;
+	height:96px;
+	overflow:hidden;
+}
+.top img{
+	width:133px;
+	height:36px;
+	float:left;
+	margin-top:30px;
+	display:block;
+}
+.top .top_right{
+	width: 210px;
+	float:right;
+	text-align: right;
+}
+.top .top_right p{
+	height:24px;
+	line-height:24px;
+	font-size:18px;
+	color:#1e3c7f;
+}
+.top .top_right .trightp{
+	margin-top:28px;
+	font-size:14px;
+}
+.top .top_right .trightp label{
+	margin:0px 8px;
+}
+.top .top_right .trightp .dter{
+	margin-left:0px;
+}
+/* **********头部-结束********** */
+
+
+/* **********导航********** */
+.nav_bgcolor{
+	width:100%;
+	min-width:1440px;
+	background-color:#182742;
+	position:absolute;
+	left:0px;
+	top:96px;
+	z-index:999999;
+}
+.nav_bgcolor .nav{
+	position:relative;
+	width:1200px;
+}
+.nav_bgcolor .nav:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display:block;
+	overflow:hidden;
+}
+.nav_bgcolor .nav ul{
+	float:left;
+	max-width:1010px;
+}
+.nav_bgcolor .nav input{
+	float:left;
+	width:150px;
+	height:26px;
+	line-height:26px\9;
+	padding-left:38px;
+	margin-top:10px;
+	border-radius:20px;
+	border:1px solid #1e3c7f;
+	background-color:#182742;
+	background:url(../images/search.png) no-repeat 12px 6px;
+	background-size:16px 16px;
+	outline:none;
+	color:#ffffff;
+}
+.nav_bgcolor .nav .searcha{
+	width:18px;
+	height:18px;
+	position:absolute;
+	right:180px;
+	top:16px;
+	z-index:200;
+}
+.nav_bgcolor .nav ul li{
+	position:relative;
+	float:left;
+	word-wrap:break-word;
+	white-space:nowrap;
+}
+.nav_bgcolor .nav ul li a{
+	overflow:hidden;
+}
+.nav_bgcolor .nav ul li a img{
+	width: 16px;
+	height: 16px;
+	float:left;
+	margin-top: 16px;
+}
+.nav_bgcolor .nav ul li a span{
+	float:left;
+	margin-left:6px;
+}
+.nav_bgcolor .nav ul li a{
+	min-width:56px;
+	height:48px;
+	line-height:48px;
+	padding:0px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	color:#ffffff;
+}
+.nav_bgcolor .nav ul li div{
+	position:absolute;
+	left:0px;
+	top:48px;
+	z-index:999999;
+	margin-right:-50px;
+	width:inherit;
+	display:none;
+	background-color:#182742;
+	opacity:.7;
+}
+.nav_bgcolor .nav ul li div a{
+	padding:0px 20px;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+}
+/* **********导航-结束********** */
+
+
+/* **********个人中心-网页位置-左列表-通用********** */
+
+.percenter_com{
+	width:1200px;
+	overflow:hidden;
+}
+.percenter_com .page_adress{
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+}
+/* *****中间-左边***** */
+.percenter_com .body_left {
+	width:190px;
+	float:left;
+	overflow:hidden;
+}
+.percenter_com .body_left .left_title{
+	width:130px;
+	height:46px;
+	line-height:46px;
+	padding-left:58px;
+	background:#c2c1c1 url(../images/icon0.png) no-repeat 34px 16px;
+	background-size:16px 16px;
+	font-size:14px;
+	font-weight:bold;
+}
+/* 手风琴效果 */
+.percenter_com .body_left .menu_list{
+	width:188px;
+	border:1px solid #dddddd;
+	background-color:#ffffff;
+}
+.percenter_com .body_left .menu_head{
+	width:130px;
+	height:46px;
+	line-height:47px;
+	padding-left:58px;
+	font-size:14px;
+	color:#525252;
+	cursor:pointer;
+	position:relative;
+	font-weight:bold;
+	margin:0;
+}
+.percenter_com .body_left .menu_list .current{
+}
+.percenter_com .body_left .menu_body{
+	width:188px;
+	height:auto;
+	overflow:hidden;
+	line-height:38px;
+}
+.percenter_com .body_left .menu_body a{
+	display:block;
+	width:130px;
+	height:38px;
+	line-height:38px;
+	padding-left:58px;
+	color:#999999;
+	text-decoration:none;
+}
+.percenter_com .body_left .menu_body a:hover{
+	text-decoration:underline;
+}
+.percenter_com .body_left .password_fix{
+	width:188px;
+	border:1px solid #dddddd;
+	border-top:none;
+	background-color:#ffffff;
+}
+.percenter_com .body_left .password_fix a{
+	height:46px;
+	line-height:46px;
+	padding-left: 58px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+}
+.percenter_com .body_left .others{
+	width:188px;
+	border:1px solid #dddddd;
+	border-top:none;
+	background-color:#ffffff;
+}
+.percenter_com .body_left .others a{
+	height:46px;
+	line-height:46px;
+	padding-left: 58px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+}
+/* 手风琴效果-结束 */
+.percenter_com .body_left .icon1{
+	background:url(../images/icon1.png) no-repeat 34px 16px;
+	background-size:13px 16px;
+}
+.percenter_com .body_left .icon2{
+	background:url(../images/icon2.png) no-repeat 35px 16px;
+	background-size:14px 13px;
+}
+.percenter_com .body_left .icon3{
+	background:url(../images/icon3.png) no-repeat 32px 16px;
+	background-size:16px 15px;
+}
+.percenter_com .body_left .icon4{
+	background:url(../images/icon4.png) no-repeat 32px 14px;
+	background-size:18px 17px;
+}
+.percenter_com .body_left .icon5{
+	background:url(../images/icon5.png) no-repeat 33px 15px;
+	background-size:15px 16px;
+}
+.percenter_com .body_left .icon6{
+	background:url(../images/icon6.png) no-repeat 32px 17px;
+	background-size:16px 12px;
+}
+.percenter_com .body_left .icon7{
+	background:url(../images/icon7.png) no-repeat 33px 13px;
+	background-size:16px 17px;
+}
+.percenter_com .body_left .icon8{
+	background:url(../images/icon8.png) no-repeat 34px 16px;
+	background-size:15px 15px;
+}
+.percenter_com .body_left .icon9{
+	background:url(../images/icon9.png) no-repeat 34px 14px;
+	background-size:16px 19px;
+}
+.percenter_com .body_left .icon10{
+	background:url(../images/icon10.png) no-repeat 34px 14px;
+	background-size:14px 15px;
+}
+/* *****中间-左边-结束***** */
+/* **********个人中心-网页位置-左列表-通用-结束********** */
+
+
+
+/* **********底部********** */
+.foot_bgcolor{
+	width:100%;
+	min-width:1440px;
+	background-color:#253862;
+}
+.foot_bgcolor .foot{
+	width:1200px;
+	padding:20px 0px;
+}
+.foot_bgcolor .foot:after{
+	content:"clear";
+	clear:both;
+	height:0px;
+	display:block;
+	overflow:hidden;
+}
+.foot_bgcolor .foot ul{
+	width:20%;
+	float:left;
+	overflow:hidden;
+}
+.foot_bgcolor .foot div{
+	width:20%;
+	float:left;
+	color:#ffffff;
+	overflow:hidden;
+}
+.foot_bgcolor .foot .foot3{
+	width:40%;
+}
+.foot_bgcolor .foot .foot4{
+	text-align:center;
+}
+.foot_bgcolor .foot .foot4 img{
+	width:110px;
+	height:110px;
+}
+.foot_bgcolor .foot ul li{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.foot_bgcolor .foot ul li a{
+	color:#ffffff;
+}
+.foot_bgcolor .foot div p{
+	padding-left:15%;
+	height:30px;
+	line-height:30px;
+}
+.flast{
+	width:100%;
+	min-width:1440px;
+	background-color:#192741;
+}
+.flast p{
+	width:1200px;
+	height:30px;
+	line-height:30px;
+	margin:0px auto;
+	text-align:center;
+	color:#ffffff;
+}
+/* **********底部-结束********** */
+/* ********************首页-结束******************** */

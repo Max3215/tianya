@@ -1,0 +1,71 @@
+ssh -l root 116.55.230.237 表示用root用户连接到116.55.230.237主机 root@237
+ls 查看当前文件夹里的内容 -l
+pwd 查看当前所在路径
+cd 切换文件夹
+mv 剪切
+cp 复制
+rm -f 删除 rm -r 删除文件夹 rm -rf 所有的都删除
+ps aux查看所有进程
+grep关键字匹配
+kill -9 6637 关闭6637进程
+nohup 不中断
+nohup java -jar zphk-1.0.jar &
+less 查看文件内容
+tail -n 100 查看文件末尾部分
+pscp 文件名 root@116.55.230.207:/mnt/root/images 复制文件到服务器
+ 
+更改字符类型 alter table 表名 modify 列名 类型名
+
+查看错误日志 tail nohup.out -n 200 
+
+不用nohup启动 nohup java -jar kjxjr-1.2.jar > /dev/null &
+
+查看程序占用端口 netstat -pant java 找出pid， 然后 ps aux|grep pid
+
+查看文件大小 du -h --max-depth=1 文件路径
+
+导出数据库  mysqldump -uroot -pPassword [database name] > [dump file]
+
+复制文件到另一服务器 scp -r 文件名 root@116.55.230.207:/mnt/root
+
+mysql -u root -p 进入mysql 数据库
+
+
+df -h 查看内存
+
+服务器域名端口指向绑定
+安装：yum install nginx
+修改配置：vi /etc/nginx/conf.d/default.conf
+server {
+    listen 8080; //端口号
+    server_name www.chuhc.com; //需要绑定的域名
+
+    location / {
+        proxy_pass http://localhost:8080;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+
+}
+启动：service nginx start
+修改的配置就是server_name和proxy_pass这两项
+
+
+cat
+
+提交授权：chmod -R 777 /home
+ssh 
+scp 
+pwd
+ps
+grep
+
+less
+
+
+
+
+

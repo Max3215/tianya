@@ -1,0 +1,431 @@
+/*01.index*/
+/*banner*/
+.index_banner{
+	width: 100%;
+ 	height: 600px; 
+ 	overflow: hidden; 
+ 	float: left; 
+ 	position: relative; 
+ }
+.banner_scrool{ 
+	width: 100%; 
+	height: 600px; 
+	}
+.banner_scrool img{ 
+	float: left;
+	width: 100%; 
+	height: 600px;
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	display: none;
+	}
+.move_btn{
+	width: 100%; 
+	height: 20px;
+	position: absolute; 
+	left: 0px; 
+	bottom: 30px; 
+	z-index: 999999;
+	}
+.move_btn ul{ 
+	width: 206px; 
+	height: 20px;  
+	margin: 0 auto;
+	}
+.move_btn ul li{ 
+	float: left; 
+	margin: 0 10px; 
+	height: 16px; 
+	width: 16px; 
+	border: white 2px solid;
+	border-radius: 10px;
+	}
+	.move_btn ul li a{
+		display: block;
+		height: 8px;
+		width: 8px;
+		border-radius: 4px;
+		margin: auto;
+		margin-top: 4px;
+		color: white;
+	}
+.move_btn .my{
+	background:white;
+	}
+	
+/*main*/	
+.content{
+	min-height:600px;
+	width: 1440px;
+	overflow: hidden;
+}
+.main_act{
+	width: 100%;
+	margin-top: 84px;
+	overflow: hidden;
+}
+.act_title{
+	width: 100%;
+	float: left;
+}
+.act_title *{
+	float: left;
+}
+.act_title span{
+	display: block;
+	width: 614px;
+	height: 46px;
+	border-top: #253862 1px solid;
+}
+.act_title a{
+	display: block;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	width: 212px;
+	background: url(../images/index_actitle.png) no-repeat center;
+	color: white;
+	font-size: 18px;
+}
+.act_box{
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+}
+.act_nav{
+	width:300px;
+	float: left;
+}
+.act_nav a{
+	display: block;
+	width: 300px;
+	height: 126px;
+	text-align: center;
+	line-height: ;
+	float: left;
+	background: #1f2f52;
+	color: white;
+	line-height: 30px;
+	text-decoration: none;
+}
+.act_nav a:hover{
+	background: #1e3c7f;
+}
+.act_nav a p{
+	margin-top: 33px;
+	font-size: 22px;
+}
+.act_nav a span{
+	display: block;
+	font-size: 14px;
+	
+}
+.act_main{
+	width:1140px ;
+	height: 504px;
+	float: left;
+	
+}
+.act_main li{
+	position: relative;
+}
+.act_main li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+}
+.act_main li a img{
+	width: 100%;
+	height: 100%;
+}
+.act_main .li01{
+	width: 780px;
+	height: 280px;
+	float: left;
+}
+.act_main .li02{
+	width: 360px;
+	height: 504px;
+	float: right;	
+}
+.act_main .li03{
+	width: 390px;
+	height: 224px;
+	float: left;	
+}
+.act_more{
+	width: 100%;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	display: block;
+	margin-top: 40px;
+}
+.act_more a{
+	color: #253862;
+	font-size: 14px;
+}
+.onway{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.onway_title{
+	width: 100%;
+	float: left;
+}
+.onway_title *{
+	float: left;
+}
+.onway_title span{
+	display: block;
+	width: 520px;
+	margin-top: 20px;
+	border-top: #253862 1px solid;
+}
+.onway_title a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width:143px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+.onway_title .a1{
+		background: url(../images/onway_title01.png) no-repeat center;
+		margin-left: 27px;
+		padding-left: 30px;
+}
+.onway_title .a2{
+		background: url(../images/onway_title02.png) no-repeat center;
+		margin-right: 27px;
+		padding-right: 30px;
+}
+.onway ul{
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+}
+.onway ul li{
+	float: left;
+	width: 25%;
+	height: 360px;
+	position: relative;
+}
+.onway ul li img{
+	width: 100%;
+	height: 100%;
+}
+.onway ul li a{
+	display: block;
+	width: 360px;
+	height: 360px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.onway_box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.onway_box dt{
+	float: left;
+	height: 320px;
+	background: url(../images/on_waybd.png);
+	color: white;
+	width: 84%;
+	padding-left:8%;
+	padding-right:8%;
+	line-height: 20px;
+}
+.onway_box dt p{
+	margin-top: 180px;
+	font-size: 18px;	
+}
+.onway_box dt span{
+	margin-top: 20px;
+	display: block;
+	max-height: 80px;
+	overflow: hidden;
+}
+.onway_box dd{
+	float: left;
+	width: 100%;
+	height: 40px;
+	background: url(../images/on_waybd02.png);
+	color: white;
+		width: 84%;
+	padding-left:8%;
+	padding-right:8%;
+}
+.onway_box dd span{
+	float: left;
+	display: block;
+	width: 32px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.onway_box dd .span1{
+	background: url(../images/onwa_icon01.png) no-repeat left;
+}
+.onway_box dd .span2{
+	background: url(../images/onwa_icon02.png) no-repeat left;
+}
+.onway_box dd .span3{
+	background: url(../images/onwa_icon03.png) no-repeat left;
+	float: right;
+	width: 44px;
+	padding-left: 26px;
+}
+.onway_more{
+	width: 100%;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	display: block;
+	margin-top: 40px;
+}
+.onway_more a{
+	color: #253862;
+	font-size: 14px;
+}
+/*02.豪华游轮*/
+.expen_box{
+	padding-top: 80px;
+	width: 1200px;
+	margin: auto;
+}
+.hot_line{
+	width: 100%;
+	height: ;
+	overflow: hidden;
+}
+.hot_linetitle{
+	width: 100%;
+	height: 50px;
+}
+.hot_linetitle *{float: left;}
+.hot_linetitle span{
+	display: block;
+	width: 510px;
+	border-top: #274b99 1px solid;
+	margin-top: 20px;
+}
+.hot_linetitle a{
+	display: block;
+	padding: 0 42px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	text-decoration: none;
+}
+.hot_line dl{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.hot_line dl dt{
+	width: 580px;
+	height: 410px;
+	float:left;
+}
+.hot_line dl dt a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.hot_line dl dt a img{
+	width: 100%;
+	height: 100%;	
+}
+.hot_line dl dt a span{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	display: block;
+	width: 560px;
+	padding-left: 20px;
+	height: 30px;
+	color: white;
+	background: url(../images/hot_linebd.png);
+	line-height: 30px;
+}
+.hot_line dl dd{
+	width: 620px;
+	height: 410px;
+	float:left;
+	margin-top: -10px;
+}
+.hot_line dl dd a{
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.hot_line dl dd a img{
+	width: 100%;
+	height: 100%;	
+}
+.hot_line dl dd a span{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	display: block;
+	width: 280px;
+	padding-left: 20px;
+	height: 30px;
+	color: white;
+	background: url(../images/hot_linebd.png);
+	line-height: 30px;
+}
+
+
+.reco_box{
+	width: 100%;
+	height: ;
+	overflow: hidden;
+}
+.reco_linetitle{
+	width: 100%;
+	height: 50px;
+}
+.reco_linetitle *{float: left;}
+.reco_linetitle span{
+	display: block;
+	width: 510px;
+	border-top: #274b99 1px solid;
+	margin-top: 20px;
+}
+.reco_linetitle a{
+	display: block;
+	padding: 0 42px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

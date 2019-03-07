@@ -1,0 +1,20 @@
+开发总结：
+一，文件上传：
+1.shwsc    article_content_edit.ftl
+
+二，日期插件（WdatePicker.js）
+1.jpdg     user_edit.ftl（何时导入WdatePicker.css文件）
+
+三，登陆注册（ajax提交带回调函数）
+1.shwsc     /client/login.ftl
+
+四，<li>标签样式切换(用if判断标识符)
+1.jpdg     /site_mag/user_edit.ftl
+
+五，添加日志信息（删除，修改，登陆等等...）
+1.jpdg      package com.ynyes.jpdg.controller.management.TdManagerBrandController.java; 第140行
+
+六，分页显示（包括页面和后台）
+1.jpdg（这个较复杂）    com.ynyes.jpdg.controller.management.TdManagerUserController.java;       第131行
+	    		site_mag/user_list.ftl        页面显示
+	   		list_footer.ftl(页面显示分页栏js代码)

@@ -1,0 +1,459 @@
+
+/* ********************鎵惧洖瀵嗙爜******************** */
+/* **********涓棿鍐呭********** */
+/* *****涓棿-宸﹁竟***** */
+.content_bg{
+	width:100%;
+	min-width:1200px;
+	height:838px;
+	background:url(../images/bg.png) no-repeat center;
+	background-size:100% 838px;
+}
+.content_bg .find_password{
+	width:850px;
+	height:400px;
+	padding:80px 0px 80px 220px;
+	background:url(../images/bgpic.png) repeat;
+	_background:#ffffff;
+}
+.content_bg .find_password .c_left{
+	width:240px;
+	height:400px;
+	float:left;
+	overflow:hidden;
+}
+.content_bg .find_password .c_left h1{
+	height:30px;
+	line-height:22px;
+	overflow:hidden;
+	font-size:24px;
+	font-weight:normal;
+	color:#333333;
+}
+.content_bg .find_password .c_left .p1{
+	height:80px;
+	line-height:80px;
+	font-size:16px;
+	color:#333333;
+}
+.content_bg .find_password .c_left .p1 a{
+	color:#f20101;
+}
+.content_bg .find_password .c_left .p2{
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	color:#666666;
+}
+.content_bg .find_password .c_left .p2 a{
+	margin-left:10px;
+	color:#333333;
+}
+/* *****涓棿-宸﹁竟-缁撴潫***** */
+
+
+/* *****涓棿-鍙宠竟***** */
+.content_bg .find_password .c_right{
+	width:560px;
+	height:400px;
+	float:left;
+}
+.content_bg .find_password .c_right div{
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	font-size:16px;
+	color:#333333;
+}
+.content_bg .find_password .c_right div label{
+	width:90px;
+	float:left;
+	text-align:right;
+}
+.content_bg .find_password .c_right div input{
+	width:250px;
+	height:30px;
+	line-height:30px\9;
+	float:left;
+	padding-left:10px;
+	margin-top:8px;
+	margin-left:6px;
+	border:none;
+	border-bottom:1px solid #999999;
+	_border-bottom:1px solid #dddddd;
+	background:none;
+	outline:none;
+	font-size:18px;
+}
+.content_bg .find_password .c_right .div1 input{
+	width:16px;
+	height:16px;
+	margin-top:18px;
+	margin-left:10px;
+}
+.content_bg .find_password .c_right .div1 label{
+	text-align:left;
+	margin-left:6px;
+}
+.content_bg .find_password .c_right .div3 a{
+	width:100px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	float:left;
+	background-color:#2b406f;
+	border-radius:6px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	color:#fff;
+}
+.content_bg .find_password .c_right .div5 input{
+	width:112px;
+}
+.content_bg .find_password .c_right .div5 img{
+	width:120px;
+	height:36px;
+	float:left;
+	margin-left:20px;
+}
+.content_bg .find_password .c_right .div6 {
+	margin-top:12px;
+}
+.content_bg .find_password .c_right .div6 input{
+	width:340px;
+	height:44px;
+	line-height:44px;
+	margin-left:18px;
+	margin-top:6px;
+	background-color:#182742;
+	border:none;
+	text-align:center;
+	color:#ffffff;
+	cursor:pointer;
+}
+/* *****涓棿-鍙宠竟-缁撴潫***** */
+/* **********涓棿鍐呭********** */
+/* ********************鎵惧洖瀵嗙爜-缁撴潫******************** */
+
+
+
+
+/* ********************鎻愮ず椤�******************** */
+/* **********涓棿鍐呭********** */
+/* *****涓棿-宸﹁竟***** */
+.prompt_page{
+	width:100%;
+	min-width:1200px;
+	height:838px;
+	background-size:100% 838px;
+}
+.prompt_page .register_ok{
+	width:1070px;
+	height:560px;
+	text-align:center;
+}
+.prompt_page .register_ok h1{
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	font-size:24px;
+	font-weight:normal;
+	color:#182742;
+}
+.prompt_page .register_ok label{
+	height:30px;
+	line-height:30px;
+	float:left;
+	display:block;
+	text-align:center;
+}
+.prompt_page .register_ok .la1{
+	width:60px;
+	padding-left:10px;
+	margin-left:414px;
+	_margin-left:206px;
+	background:url(../images/last.png) no-repeat 0px 8px;
+}
+.prompt_page .register_ok .la1 a,
+.prompt_page .register_ok .la2 a{
+	font-size:16px;
+	color:#666666;
+}
+.prompt_page .register_ok .la2{
+	width:100px;
+	padding-left:26px;
+	margin-left:20px;
+	background:url(../images/last0.png) no-repeat 0px 7px;
+}
+/* *****涓棿-鍙宠竟-缁撴潫***** */
+/* **********涓棿鍐呭********** */
+/* ********************鎻愮ず椤�-缁撴潫******************** */
+
+
+
+
+/* ********************鎵惧洖瀵嗙爜******************** */
+/* **********涓棿鍐呭********** */
+/* *****涓棿-宸﹁竟***** */
+.content_bg{
+	width:100%;
+	min-width:1200px;
+	height:838px;
+	background:url(../images/bg.png) no-repeat center;
+	background-size:100% 838px;
+}
+.content_bg .rewrite_password{
+	width:850px;
+	height:400px;
+	padding:80px 0px 80px 220px;
+	background:url(../images/bgpic.png) repeat;
+	_background:#ffffff;
+}
+.content_bg .rewrite_password .c_left{
+	width:240px;
+	height:400px;
+	float:left;
+	overflow:hidden;
+}
+.content_bg .rewrite_password .c_left h1{
+	height:30px;
+	line-height:22px;
+	overflow:hidden;
+	font-size:24px;
+	font-weight:normal;
+	color:#333333;
+}
+.content_bg .rewrite_password .c_left .p1{
+	height:80px;
+	line-height:80px;
+	font-size:16px;
+	color:#333333;
+}
+.content_bg .rewrite_password .c_left .p1 a{
+	color:#f20101;
+}
+.content_bg .rewrite_password .c_left .p2{
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	color:#666666;
+}
+.content_bg .rewrite_password .c_left .p2 a{
+	margin-left:10px;
+	color:#333333;
+}
+/* *****涓棿-宸﹁竟-缁撴潫***** */
+
+
+/* *****涓棿-鍙宠竟***** */
+.content_bg .rewrite_password .c_right{
+	width:560px;
+	height:400px;
+	float:left;
+}
+.content_bg .rewrite_password .c_right div{
+	height:60px;
+	line-height:60px;
+	overflow:hidden;
+	font-size:18px;
+	color:#333333;
+}
+.content_bg .rewrite_password .c_right div label{
+	width:90px;
+	float:left;
+	text-align:right;
+}
+.content_bg .rewrite_password .c_right div input{
+	width:250px;
+	height:30px;
+	line-height:30px\9;
+	float:left;
+	padding-left:10px;
+	margin-top:8px;
+	margin-left:6px;
+	border:none;
+	border-bottom:1px solid #999999;
+	_border-bottom:1px solid #dddddd;
+	background:none;
+	outline:none;
+	font-size:18px;
+}
+.content_bg .rewrite_password .c_right .div3 a{
+	width:100px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	float:left;
+	background-color:#2b406f;
+	border-radius:6px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	color:#fff;
+}
+.content_bg .rewrite_password .c_right .div6 {
+	margin-top:12px;
+}
+.content_bg .rewrite_password .c_right .div6 input{
+	width:340px;
+	height:44px;
+	line-height:44px;
+	margin-left:18px;
+	margin-top:6px;
+	background-color:#182742;
+	border:none;
+	text-align:center;
+	color:#ffffff;
+	cursor:pointer;
+}
+/* *****涓棿-鍙宠竟-缁撴潫***** */
+/* **********涓棿鍐呭********** */
+/* ********************鎵惧洖瀵嗙爜-缁撴潫******************** */
+
+
+/* ********************淇敼鎴愬姛******************** */
+/* **********涓棿鍐呭********** */
+.content_bg{
+	width:100%;
+	min-width:1200px;
+	height:838px;
+	background:url(../images/bg.png) no-repeat center;
+	background-size:100% 838px;
+}
+.content_bg .rewrite_ok{
+	width:1070px;
+	height:560px;
+	background:url(../images/bgpic.png) repeat;
+	_background:#ffffff;
+}
+.content_bg .rewrite_ok h1{
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	font-size:24px;
+	font-weight:normal;
+	color:#182742;
+}
+.content_bg .rewrite_ok label{
+	height:30px;
+	line-height:30px;
+	float:left;
+	display:block;
+	text-align:center;
+}
+.content_bg .rewrite_ok .la1{
+	width:60px;
+	padding-left:10px;
+	margin-left:414px;
+	_margin-left:206px;
+	background:url(../images/last.png) no-repeat 0px 8px;
+}
+.content_bg .rewrite_ok .la1 a,
+.content_bg .rewrite_ok .la2 a{
+	font-size:16px;
+	color:#666666;
+}
+.content_bg .rewrite_ok .la2{
+	width:66px;
+	padding-left:26px;
+	margin-left:466px;
+	background:url(../images/last0.png) no-repeat 0px 7px;
+}
+/* **********涓棿鍐呭********** */
+/* ********************淇敼鎴愬姛-缁撴潫******************** */
+
+
+/** ********* * 缁戝畾鐧诲綍 * * * * * * * ************** */
+/* 缁戝畾鐧诲綍 */
+.bing_sign{
+    margin:0 auto;
+    margin-top:10px;
+    width:1198px;
+    border:1px solid #ddd;
+    background:#fff;
+}
+.bing_sign .divv1{
+    padding:0 200px;
+    height:160px;
+    line-height:160px;
+    font-size:16px;
+    color:#666;
+}
+.bing_sign .divv1 span{
+    color:#0394fa;
+}
+.bing_sign .divv2{
+    overflow:hidden;
+    height:600px;
+}
+.bing_sign .divv2 form{
+    float:left;
+    width:599px;
+}
+.bing_sign .divv2 form.bing_sleft{
+    padding-bottom:100px;
+    background:url(../images/jj1.png) no-repeat 100% center;
+}
+.bing_sign .divv2 form div{
+    overflow:hidden;
+    margin:10px auto 0;
+    width:300px;
+    height:30px;
+}
+
+.bing_sign .divv2 form .reg{
+    overflow:hidden;
+    margin:10px auto 0;
+    width:380px;
+    height:35px;
+}
+
+.bing_sign .divv2 form div.mms{
+    font-weight:bold;
+    font-size:16px;
+}
+.bing_sign .divv2 form div label{
+    display:block;
+    float:left;
+    width:80px;
+    line-height:30px;
+    text-align:right;
+}
+.bing_sign .divv2 form div input{
+    float:left;
+    padding:0 10px;
+    width:178px;
+    height:28px;
+    line-height:28px;
+    border:1px solid #ddd;
+}
+.bing_sign .divv2 form div.kk{
+    margin-top:30px;
+    height:34px;
+}
+.bing_sign .divv2 form div.kk input{
+    margin-left:80px;
+    width:200px;
+    height:34px;
+    font-size:14px;
+    color:#fff;
+    border-radius:5px;
+    border:none;
+    background:#1d2f4f;
+}
+.bing_sign .divv2 form div.kkdiv input{
+    width:78px;
+}
+.bing_sign .divv2 form div.kkdiv i{
+    display:block;
+    float:left;
+    margin-left:10px;
+    width:90px;
+    height:30px;
+}
+.bing_sign .divv2 form div.kkdiv i img{
+    width:100%;
+    height:100%;
+}
+/* 缁戝畾鐧诲綍-缁撴潫 */
